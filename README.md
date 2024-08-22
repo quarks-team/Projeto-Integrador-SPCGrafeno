@@ -6,7 +6,7 @@ Repositório contendo manual e demais repos do projeto integrador 2024-2
 
 | Event             | Date           |
 | ----------------- | -------------- |
-| Kick-off          | 26/08 to 08/09 |
+| Kick-off          | 02/09 to 08/09 |
 | Sprint 1          | 09/09 to 29/09 |
 | Review            | 30/09 to 04/10 |
 | Sprint 2          | 07/10 to 27/10 |
