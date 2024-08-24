@@ -5,11 +5,11 @@ Repositório contendo manual e demais repos do projeto integrador 2024-2
 ### Funcionais:
 
 ### Não Funcionais:
-  º Utilizando o Devops conforme documentação;
-  º Deve apresentar Termo de Aceite do uso de Dados e sua versão;
-  º Documentação e versionamento do termo de aceite;
-  º Deve apresentar histórico do usuário a cada aceite ou não aceite do termo,
-  exemplo: Usuário aceitou o termo V-1.0 na data xx/yy e recusou o termo V-1.5 na data zz/yy;
+  <li> º Utilizando o Devops conforme documentação; </li>
+  <li> º Deve apresentar Termo de Aceite do uso de Dados e sua versão; </li>
+  <li> º Documentação e versionamento do termo de aceite; </li>
+  <li> º Deve apresentar histórico do usuário a cada aceite ou não aceite do termo,
+  exemplo: Usuário aceitou o termo V-1.0 na data xx/yy e recusou o termo V-1.5 na data zz/yy; </li>
   
 
 
