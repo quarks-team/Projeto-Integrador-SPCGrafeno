@@ -1,5 +1,11 @@
-# Projeto Integrador: SPC Grafeno
+# API 6º Semestre - Quarks Team
 Repositório contendo manual e demais repositórios do projeto integrador 2024-2
+
+## Tema
+
+## Contexto
+
+## Desafio
 
 ## Requisitos
 ### Funcionais:
@@ -41,3 +47,6 @@ Repositório contendo manual e demais repositórios do projeto integrador 2024-2
 | <img src = "./Documents/Time/nicolas.png" width="60" >   | **Nicolas Cursino**   | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/nicursino)          | [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/nicolas-magarifuchi-406935184/)
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
+
+## Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
