@@ -93,7 +93,7 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
 </table>
 
 
-<br><br><br>
+<br><br>
 
 | Event             | Date           |
 | ----------------- | -------------- |
