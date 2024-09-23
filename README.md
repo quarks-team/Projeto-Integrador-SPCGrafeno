@@ -6,6 +6,10 @@
 # Theme
 # Context
 # Challenge
+
+## Proposed Solution:
+A system that analyzes the reliability of an endorser through AI algorithms/models that can generate a score demonstrating how well a CNPJ maintains its commitment to credit. Since merely having a duplicata (invoice) is practically a guarantee that the amount contracted in the advance will be paid.
+
 ## Requirements
 ### Functional:
 ### Non-Functional:
@@ -27,10 +31,6 @@
 | Feira de Soluções | 12/12          |
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
-
-Proposed Solution:
-A system that analyzes the reliability of an endorser through AI algorithms/models that can generate a score demonstrating how well a CNPJ maintains its commitment to credit. Since merely having a duplicata (invoice) is practically a guarantee that the amount contracted in the advance will be paid.
-
 
 ## Team
 
