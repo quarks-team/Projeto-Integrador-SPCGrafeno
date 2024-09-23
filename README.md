@@ -14,16 +14,16 @@ Documentation and versioning of the Terms of Use.
 Must display the user's history for each acceptance or rejection of the terms.
 Example: The user accepted version V-1.0 of the terms on date xx/yy and rejected version V-1.5 on date zz/yy.
 
-Schedule
-Event	Date
-Kick-off	02/09 to 08/09
-Sprint 1	09/09 to 29/09
-Review	30/09 to 04/10
-Sprint 2	07/10 to 27/10
-Review	28/10 to 01/11
-Sprint 3	04/11 to 24/11
-Review	25/11 to 11/12
-Solution Fair	12/12
+| Event             | Date           |
+| ----------------- | -------------- |
+| Kick-off          | 02/09 to 08/09 |
+| Sprint 1          | 09/09 to 29/09 |
+| Review            | 30/09 to 04/10 |
+| Sprint 2          | 07/10 to 27/10 |
+| Review            | 28/10 to 01/11 |
+| Sprint 3          | 04/11 to 24/11 |
+| Review            | 25/11 to 11/12 |
+| Feira de Soluções | 12/12          |
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
