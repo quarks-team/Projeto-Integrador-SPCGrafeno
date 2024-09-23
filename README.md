@@ -1,18 +1,19 @@
 
-API 6th Semester - Quarks Team
-Repository containing the manual and other repositories of the 2024-2 integrator project.
+# API 6th Semester - Quarks Team
+<br><br>
+## Repository containing the manual and other repositories of the 2024-2 integrator project.
 
-Theme
-Context
-Challenge
-Requirements
-Functional:
-Non-Functional:
-Using DevOps according to the documentation.
-Must present the Terms of Use for Data and its version.
-Documentation and versioning of the Terms of Use.
-Must display the user's history for each acceptance or rejection of the terms.
-Example: The user accepted version V-1.0 of the terms on date xx/yy and rejected version V-1.5 on date zz/yy.
+# Theme
+# Context
+# Challenge
+## Requirements
+### Functional:
+### Non-Functional:
+<li> Using DevOps according to the documentation. </li>
+<li> Must present the Terms of Use for Data and its version. </li>
+<li> Documentation and versioning of the Terms of Use. </li>
+<li> Must display the user's history for each acceptance or rejection of the terms. </li>
+<li> Example: The user accepted version V-1.0 of the terms on date xx/yy and rejected version V-1.5 on date zz/yy. </li>
 
 | Event             | Date           |
 | ----------------- | -------------- |
