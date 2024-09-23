@@ -26,7 +26,7 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
       <td rowspan="9">Functional</td>
       <td>Terms of Use Consent Management Interface</td>
       <td>Create a user interface where the CNPJ/endorser can update their consent status for data usage, with the option to revoke or partially revoke access, explaining the impact of these actions.</td>
-      <td>Interface de Gerenciamento de Consentimento</td>
+      <td> Consent management interface</td>
     </tr>
     <tr>
       <td>API for Consent Status Updates</td>
@@ -36,37 +36,37 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
     <tr>
       <td>Log Changes in Consent</td>
       <td>Create a log table to track all changes to user consent status, including acceptance and revocation history, and track the version of terms accepted.</td>
-      <td>Registro/Logs de mudanças no consentimento</td>
+      <td>Register/Logs of consent changes</td>
     </tr>
     <tr>
       <td>AI Data DDL</td>
       <td>Create a DDL for AI data, including input data from CSV files and a table to store AI-generated scores for each CNPJ.</td>
-      <td>Criação de DDL para os dados da IA</td>
+      <td>DDL for the IA data</td>
     </tr>
     <tr>
       <td>Complete AI Data ETL</td>
       <td>Perform a complete ETL process based on the generated DDL, removing unnecessary data, standardizing fields, and converting data types where necessary.</td>
-      <td>Etl completo dos dados de uso da IA</td>
+      <td>Complete ETL for data used by the IA model</td>
     </tr>
     <tr>
       <td>AI Model for Endorser Score Calculation</td>
       <td>Create the final AI model for calculating endorser scores, following best practices such as using 60% of the dataset for training and 20% for testing, ensuring proper training and no overfitting.</td>
-      <td>Criação de modelo para cálculo de score dos endossantes</td>
+      <td>Creation of the model to calculate score for endossers</td>
     </tr>
     <tr>
       <td>Score Display Screen</td>
       <td>Develop a screen that displays the logged-in user's CNPJ score, sourced from the AI results table.</td>
-      <td>Tela para ver Score do CNPJ logado</td>
+      <td> View to analyse and visualize the score from the logged user</td>
     </tr>
     <tr>
       <td>API for Score Retrieval</td>
       <td>Create an API that retrieves the score for the logged-in user's CNPJ, ensuring proper authentication and data filtering.</td>
-      <td>Api para busca e retorno do score</td>
+      <td>Api for search and return from the score of the users</td>
     </tr>
     <tr>
       <td>Documentation for AI Usage</td>
       <td>Create documentation explaining how clients or users should utilize the AI model for score analysis, detailing the data flow and model usage.</td>
-      <td>Documentação do uso do modelo IA</td>
+      <td>Docs for the IA Model</td>
     </tr>
     <tr>
       <td rowspan="4">Non-Functional</td>
@@ -82,12 +82,12 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
     <tr>
       <td>Consent Process Documentation</td>
       <td>Document the entire consent management process, including user interactions, consent updates, and legal compliance.</td>
-      <td>Documentação dos processos de consentimento</td>
+      <td>Docs for the consent process</td>
     </tr>
     <tr>
       <td>AI Weights Documentation</td>
       <td>Document the rules and data used as weights in the AI process, allowing clients to understand how to improve their score and the impact of certain decisions on their credit possibilities.</td>
-      <td>Documentação das regras dos pesos IA</td>
+      <td>FDocs for rules in the IA</td>
     </tr>
   </tbody>
 </table>
@@ -123,4 +123,4 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
 ## Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project was created under the MIT license - look the file [LICENSE](LICENSE) for more details.
