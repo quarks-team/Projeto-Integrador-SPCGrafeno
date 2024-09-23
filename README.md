@@ -87,7 +87,7 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
     <tr>
       <td>AI Weights Documentation</td>
       <td>Document the rules and data used as weights in the AI process, allowing clients to understand how to improve their score and the impact of certain decisions on their credit possibilities.</td>
-      <td>FDocs for rules in the IA</td>
+      <td>Docs for rules in the IA</td>
     </tr>
   </tbody>
 </table>
