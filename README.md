@@ -19,6 +19,8 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
 <li> Must display the user's history for each acceptance or rejection of the terms. </li>
 <li> Example: The user accepted version V-1.0 of the terms on date xx/yy and rejected version V-1.5 on date zz/yy. </li>
 
+<br><br><br>
+
 | Event             | Date           |
 | ----------------- | -------------- |
 | Kick-off          | 02/09 to 08/09 |
