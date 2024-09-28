@@ -1,6 +1,7 @@
 
 # API 6th Semester - Quarks Team
 <br>
+
 ## Repository containing the manual and other repositories of the 2024-2 integrator project.
 
 # Context
