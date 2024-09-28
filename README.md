@@ -101,7 +101,7 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
   </tbody>
 </table>
 
-
+<br>
 <table border="1" cellpadding="10" cellspacing="0">
   <thead>
     <tr>
