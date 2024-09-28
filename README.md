@@ -1,7 +1,11 @@
 
 # API 6th Semester - Quarks Team
-<br><br>
+<br>
 ## Repository containing the manual and other repositories of the 2024-2 integrator project.
+
+# Context
+
+You have been hired by a financial asset register (SPC Grafeno)to create new, innovative financial products using machine learning techniques. The company will provide a diverse database containing historical information on a variety of financial assets, transactions, and market behaviors.
 
 # Challenge
 
