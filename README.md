@@ -158,7 +158,7 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
 ### Used Technologies
 - [Typescript](https://www.typescriptlang.org/)
 - [Node](https://nodejs.org/en)
-- [PostgreSql](https://https://www.postgresql.org/))
+- [PostgreSql](https://https://www.postgresql.org/)
 - [Vue](https://vuejs.org/)
 - [Python](https://www.python.org/)
   
