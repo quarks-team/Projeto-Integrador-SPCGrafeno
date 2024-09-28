@@ -5,18 +5,18 @@
 
 # Context
 
-You have been hired by a financial asset register (SPC Grafeno)to create new, innovative financial products using machine learning techniques. The company will provide a diverse database containing historical information on a variety of financial assets, transactions, and market behaviors.
+We have been hired by a financial asset register(SPC Grafeno) to create new, innovative financial products using machine learning techniques. The company provided a diverse database containing historical information on a variety of financial assets, transactions, and market behaviors.
 
 # Challenge
 
-Your challenge is to explore this database, identify patterns and opportunities, and develop one or more financial products that can add value to both the company and its clients.
+The challenge is to explore this database, identify patterns and opportunities, and develop one or more financial products that can add value to both the company and its clients.
 
-You are expected to use machine learning techniques to predict trends, identify risks, or even propose methods for evaluating assets. Your solution should be implemented in a proof of concept that demonstrates the feasibility of the proposed product, including a description of the model used, justification for the choice of techniques employed, and a performance evaluation of the model.
+We are expected to use machine learning techniques to predict trends, identify risks, or even propose methods for evaluating assets. Our solution should be implemented in a proof of concept that demonstrates the feasibility of the proposed product, including a description of the model used, justification for the choice of techniques employed, and a performance evaluation of the model.
 
-In the end, you will need to present your results in a report, along with a presentation that clearly and objectively explains how your solution can be used by the company and what benefits it can bring to the registry and its clients.
+In the end, we will need to present your results in a report, along with a presentation that clearly and objectively explains how your solution can be used by the company and what benefits it can bring to the registry and its clients.
 
 ## Proposed Solution:
-A system that analyzes the reliability of an endorser through AI algorithms/models that can generate a score demonstrating how well a CNPJ maintains its commitment to credit. Since merely having a duplicata (invoice) is practically a guarantee that the amount contracted in the advance will be paid.
+A system that analyzes the reliability of an endorser through AI algorithms/models that can generate a score demonstrating how well a Company maintains its commitment to credit. Since merely having a invoice is practically a guarantee that the amount contracted in the advance will be paid.
 
 ## Requirements
 <table border="1" cellpadding="10" cellspacing="0">
