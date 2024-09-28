@@ -145,6 +145,16 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
   </tbody>
 </table>
 
+### Wireframe Sprint 1:
+
+<img src = "./Documents/IMGS/wireframe/LoginSpc.png" > 
+
+<img src = "./Documents/IMGS/wireframe/HomeSpcGrafeno.png" >
+
+<img src = "./Documents/IMGS/wireframe/COntratosSpc.png" >
+
+
+
 ### Used Technologies
 - [Typescript](https://www.typescriptlang.org/)
 - [Node](https://nodejs.org/en)
