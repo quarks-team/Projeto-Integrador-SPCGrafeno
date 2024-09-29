@@ -81,7 +81,7 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
       <td rowspan="4">Non-Functional</td>
       <td>DevOps Integration</td>
       <td>Ensure that the project follows DevOps best practices, with automated testing and deployment pipelines.</td>
-      <td>N/A</td>
+      <td> Both CI Pipeline for Frontend and Backend </td>
     </tr>
     <tr>
       <td>DDL for Terms and Consent Data</td>
