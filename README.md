@@ -215,10 +215,11 @@ By the end of Sprint 1, users should be able to log in to the web platform, view
 
 ### Wireframe Sprint 1:
 
+***Login Page***
 <img src = "./Documents/IMGS/wireframe/LoginSpc.png" > 
-
+***Home Page***
 <img src = "./Documents/IMGS/wireframe/HomeSpcGrafeno.png" >
-
+***Bills Table Page***
 <img src = "./Documents/IMGS/wireframe/COntratosSpc.png" >
 
 ### Tutorial to build application:
