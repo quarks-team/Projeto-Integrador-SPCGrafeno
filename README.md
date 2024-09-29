@@ -102,7 +102,9 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
 </table>
 
 <br>
+
 ## Backlog
+
 <table border="1" cellpadding="10" cellspacing="0">
   <thead>
     <tr>
