@@ -1,1 +1,0 @@
-ssh -i "C:\Users\Noite\Desktop\6Sem\api\Projeto-Integrador-SPCGrafeno\quarks_key.pem" quarks@172.178.96.114
