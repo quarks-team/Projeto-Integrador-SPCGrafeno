@@ -110,43 +110,53 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
     <tr>
       <th>User Story</th>
       <th>Description</th>
+      <th>Priority</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>AI Model Testing for Score</td>
       <td>As a user, I need to test various AI models to generate a score that represents how well a CNPJ maintains its commitment to credit, so I can assess the reliability of endorsers.</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>Web Platform CNPJ Login</td>
       <td>As a CNPJ user, I need to log in to the web platform with my CNPJ to view my score and historical data related to my credit endorsements.</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>Web Platform SPC Login</td>
       <td>As an SPC user, I need to access scores and histories of all endorsers to evaluate each CNPJ's credit commitment.</td>
+      <td>Medium</td>
     </tr>
     <tr>
       <td>Data Transformation for AI</td>
       <td>As a developer, I need to transform and clean unnecessary data, store it in a database, and make it available for testing various AI models that generate a credit score based on CNPJ data.</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>CI Pipeline for Backend</td>
       <td>As a DevOps engineer, I need to create a CI pipeline for the backend repository, ensuring unit and integration tests are run automatically, and only successful tests allow a merge to the main branch.</td>
+      <td>Low</td>
     </tr>
     <tr>
       <td>CI Pipeline for Frontend</td>
       <td>As a DevOps engineer, I need to create a CI pipeline for the frontend repository, ensuring unit and integration tests are run automatically, and only successful tests allow a merge to the main branch.</td>
+      <td>Low</td>
     </tr>
     <tr>
       <td>Dashboards for Score Analysis</td>
       <td>As a user, I need to view dashboards in Power BI that show the score evolution and the key metrics affecting the score, such as the number of duplicates.</td>
+      <td>Low</td>
     </tr>
     <tr>
       <td>AI Model Optimization</td>
       <td>As a developer, I need to optimize the AI models to ensure higher accuracy in the score results.</td>
+      <td>Medium</td>
     </tr>
   </tbody>
 </table>
+
 
 ### Backlog Sprint 1:
 
