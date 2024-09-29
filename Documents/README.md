@@ -9,9 +9,11 @@ Ensure you have the following installed:
 
 ## Frontend Setup
 
-<h2><a href="https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-Front.git"  target='_blank'>Clone the frontend repo here</a></h2>
+<h3><a href="https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-Front.git"  target='_blank'>Clone the frontend repo here</a></h3>
 
 ### ***1. Open PowerShell and navigate to the frontend project directory:***
+
+cd spc_front/spc_login
   
 Install the necessary packages:
 
@@ -49,7 +51,7 @@ VITE v3.2.11  ready in 1211 ms
 
 ## Backend Setup
 
-<h2><a href="https://github.com/quarks-team/ip4-recivables.git"  target='_blank'>Clone the backend repo here</a></H2>
+<h3><a href="https://github.com/quarks-team/ip4-recivables.git"  target='_blank'>Clone the backend repo here</a></h3>
 
 Open a new PowerShell window and navigate to the backend project directory:
 
@@ -109,7 +111,11 @@ Certifique-se de ter os seguintes itens instalados:
 
 ## Configuração do Frontend
 
+<h3><a href="https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-Front.git"  target='_blank'>Clone o repo do frontend aqui</a></h3>
+
 ### ***1. Abra o PowerShell e navegue até o diretório do projeto frontend:***
+
+cd spc_front/spc_login
 
 ### Instale os pacotes necessários:
 
@@ -149,6 +155,8 @@ VITE v3.2.11  ready in 1211 ms
 ➜  Network: use --host to expose
 
 ## Configuração do Backend
+
+<h3><a href="https://github.com/quarks-team/ip4-recivables.git"  target='_blank'>Clone o repo do backend aqui</a></h3>
 
 ### ***Abra uma nova janela do PowerShell e navegue até o diretório do projeto backend:***
 
