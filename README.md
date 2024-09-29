@@ -192,5 +192,5 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
-## Licença
+## License
 This project was created under the MIT license - look the file [LICENSE](LICENSE) for more details.
