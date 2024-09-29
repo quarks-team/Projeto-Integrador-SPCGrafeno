@@ -9,6 +9,8 @@ Ensure you have the following installed:
 
 ## Frontend Setup
 
+<h2><a href="https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-Front.git"  target='_blank'>Clone the frontend repo here</a></h2>
+
 ### ***1. Open PowerShell and navigate to the frontend project directory:***
   
 Install the necessary packages:
@@ -46,6 +48,9 @@ VITE v3.2.11  ready in 1211 ms
 ➜  Network: use --host to expose
 
 ## Backend Setup
+
+<h2><a href="https://github.com/quarks-team/ip4-recivables.git"  target='_blank'>Clone the backend repo here</a></H2>
+
 Open a new PowerShell window and navigate to the backend project directory:
 
 ### ***Install the necessary packages using Yarn:***
