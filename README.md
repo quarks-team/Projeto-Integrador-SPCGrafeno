@@ -183,6 +183,9 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
   </tbody>
 </table>
 
+### Sprint 1 objective:
+
+  To develop the score building IA so the user can access their credit score values and for further analysis to other personas;
 
 
 
