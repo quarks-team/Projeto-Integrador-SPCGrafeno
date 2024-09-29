@@ -221,6 +221,10 @@ By the end of Sprint 1, users should be able to log in to the web platform, view
 
 <img src = "./Documents/IMGS/wireframe/COntratosSpc.png" >
 
+### Tutorial to build application:
+
+https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/README.md
+
 
 
 ### Used Technologies
