@@ -102,6 +102,7 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
 </table>
 
 <br>
+## Backlog
 <table border="1" cellpadding="10" cellspacing="0">
   <thead>
     <tr>
@@ -144,6 +145,34 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
     </tr>
   </tbody>
 </table>
+
+### Backlog Sprint 1:
+
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th>User Story</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AI Model Testing for Score</td>
+      <td>As a user, I need to test various AI models to generate a score that represents how well a CNPJ maintains its commitment to credit, so I can assess the reliability of endorsers.</td>
+    </tr>
+    <tr>
+      <td>Web Platform CNPJ Login</td>
+      <td>As a CNPJ user, I need to log in to the web platform with my CNPJ to view my score and historical data related to my credit endorsements.</td>
+    </tr>
+    <tr>
+      <td>Data Transformation for AI</td>
+      <td>As a developer, I need to transform and clean unnecessary data, store it in a database, and make it available for testing various AI models that generate a credit score based on CNPJ data.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 
 ### Wireframe Sprint 1:
 
