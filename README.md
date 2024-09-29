@@ -183,7 +183,7 @@ A system that analyzes the reliability of an endorser through AI algorithms/mode
   </tbody>
 </table>
 
-  ### Sprint 1 Detailed Objective
+  ### Sprint 1 Detailed Objective:
 
 **Objective:**  
 To develop and implement the foundational components of the AI model that generates credit scores based on CNPJ data, enabling users to effectively access and analyze their credit score values. This sprint aims to achieve the following specific goals:
@@ -236,6 +236,8 @@ https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents
   
 
 <br><br>
+
+## Schedule:
 
 | Event             | Date           |
 | ----------------- | -------------- |
