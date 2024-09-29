@@ -7,7 +7,7 @@ Ensure you have the following installed:
 
 ## Frontend Setup
 
-1. Open PowerShell and navigate to the frontend project directory:
+**1. Open PowerShell and navigate to the frontend project directory:**
   
 Install the necessary packages:
 
@@ -23,35 +23,35 @@ added 8 packages, and audited 1636 packages in 19s
 
 88 vulnerabilities (1 low, 59 moderate, 23 high, 5 critical)
 
-To address issues that do not require attention, run:       
+**To address issues that do not require attention, run:**      
   npm audit fix
 
-To address all issues (including breaking changes), run:    
+**To address all issues (including breaking changes), run:**    
   npm audit fix --force
 
 Run `npm audit` for details.
 
-Run the development server:
+**Run the development server:**
 
 Copy code
 npm run dev
 
-You should see output indicating the server is running:
+**You should see output indicating the server is running:**
 
 VITE v3.2.11  ready in 1211 ms
 
 ➜  Local:   http://localhost:9090/
 ➜  Network: use --host to expose
 
-Backend Setup
+### Backend Setup
 Open a new PowerShell window and navigate to the backend project directory:
 
-Install the necessary packages using Yarn:
+**Install the necessary packages using Yarn:**
 
 Copy code
 yarn install
 
-You might see output like:
+**You might see output like:**
 
 yarn install v1.22.22
 [1/4] Resolving packages...
@@ -59,12 +59,13 @@ yarn install v1.22.22
 [3/4] Linking dependencies...
 ...
 Done in 138.50s.
-Start the backend application:
+
+**Start the backend application:**
 
 Copy code
 yarn start
 
-The server should start successfully, and you will see log output similar to:
+**The server should start successfully, and you will see log output similar to:**
 
 
 [Nest] 19560  - 29/09/2024, 01:17:02     LOG [NestFactory] Starting Nest application...
