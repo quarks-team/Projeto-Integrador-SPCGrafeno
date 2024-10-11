@@ -1,0 +1,401 @@
+# API 6th Semester - Quarks Team
+### [ PT/BR README: ](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/PTBR/README_PT.md) 
+<br>
+
+## Repository containing the manual and other repositories of the 2024-2 integrator project.
+
+# Context
+
+We have been hired by a financial asset register(SPC Grafeno) to create new, innovative financial products using machine learning techniques. The company provided a diverse database containing historical information on a variety of financial assets, transactions, and market behaviors.
+
+# Challenge
+
+The challenge is to explore this database, identify patterns and opportunities, and develop one or more financial products that can add value to both the company and its clients.
+
+We are expected to use machine learning techniques to predict trends, identify risks, or even propose methods for evaluating assets. Our solution should be implemented in a proof of concept that demonstrates the feasibility of the proposed product, including a description of the model used, justification for the choice of techniques employed, and a performance evaluation of the model.
+
+In the end, we will need to present your results in a report, along with a presentation that clearly and objectively explains how your solution can be used by the company and what benefits it can bring to the registry and its clients.
+
+## Proposed Solution:
+A system that analyzes the reliability of an endorser through AI algorithms/models that can generate a score demonstrating how well a Company maintains its commitment to credit. Since merely having a invoice is practically a guarantee that the amount contracted in the advance will be paid.
+
+
+
+<br>
+
+## Backlog: 
+
+<h3>Functional Requirements</h3>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Story</th>
+            <th>Description</th>
+            <th>Priority</th>
+            <th>Functional Requirements Met</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/loginAutenticacaoEndorser.md" target='_blank'> Endorser Login/Authentication </a></td>
+            <td>As an endorser user, I want to authenticate on the platform using my CNPJ and password, so I can access my account and view my score, provided I have accepted the terms.</td>
+            <td>High</td>
+            <td>Secure Login Functionality</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/transformacaoDosDadosParaIA.md" target='_blank'> Data Transformation for AI </a></td>
+            <td>As a data engineer, I want to transform and clean data according to predefined rules, so unnecessary data is removed and the cleaned data is accessible for testing AI algorithms.</td>
+            <td>High</td>
+            <td>Data Cleaning and Preprocessing, Data Storage</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target='_blank'> AI Model for Score </a></td>
+            <td>As a data scientist, I want to test various AI algorithms that generate a credit score for each endorser, so I can evaluate their reliability in fulfilling credit obligations.</td>
+            <td>High</td>
+            <td>Research AI Algorithms, Develop Initial AI Models, Thorough Testing</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoDeFinalizacaoDeDuplicatasSPC.md" target='_blank'> Duplicate Completion Prediction - SPC </a></td>
+            <td>As an SPC user, I want to predict the completion of a duplicate based on provided parameters, so I can understand the likelihood of a specific duplicate being finalized.</td>
+            <td>Medium</td>
+            <td>Predict Duplicate Finalization</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoScoreSPC.md" target='_blank'> Score Prediction - SPC </a></td>
+            <td>As an SPC user, I want to predict the score of an endorser based on parameters that I will input, so I can understand how changes in parameters affect the user's credit score.</td>
+            <td>Medium</td>
+            <td>Predict Score Changes</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/previsaoScoreAlvoEndorser.md" target='_blank'> Target Score Prediction - Endorser </a></td>
+            <td>As an endorser user, I want to discover what changes are necessary to achieve a target score that I will provide, so I can make informed decisions and improve my credit situation.</td>
+            <td>Medium</td>
+            <td>Identify Changes for Target Score</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/preverFinalizacaoDeFaturas.md" target='_blank'> AI Model for Duplicate Prediction </a></td>
+            <td>As a data scientist, I want to test various AI algorithms that generate a duplicate status prediction, so I can evaluate the reliability in fulfilling credit obligations.</td>
+            <td>High</td>
+            <td>Research AI Algorithms, Develop Initial AI Models</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/OtimizacaodeModelosIA.md" target='_blank'> Optimization of AI Models </a></td>
+            <td>As a data scientist, I want to optimize the selected AI models, so I can achieve greater accuracy in predicting credit scores and invoice completion.</td>
+            <td>Low</td>
+            <td>Improve AI Score Model</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/dashboardAnaliseCnpjsScore.md" target='_blank'> Dashboard for CNPJ Score Analysis </a></td>
+            <td>As a financial analyst, I want to visualize a dashboard that shows the evolution of credit scores for each CNPJ, so I can understand the key metrics that impact these scores.</td>
+            <td>Low</td>
+            <td>User Interface Design, User Feedback Collection</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Non-Functional Requirements</h3>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Story</th>
+            <th>Description</th>
+            <th>Priority</th>
+            <th>Non-Functional Requirements Met</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PipelineDeCIBackend.md" target='_blank'> CI Pipeline for Backend </a></td>
+            <td>As a developer, I want to build a Continuous Integration (CI) pipeline for the backend repository, so unit and integration tests are automatically executed, ensuring code quality before merging to the main branch.</td>
+            <td>High</td>
+            <td>Thorough Testing</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/CIPipelineForFrontend.md" target='_blank'> CI Pipeline for Frontend </a></td>
+            <td>As a frontend developer, I want a CI pipeline for the frontend repository, so unit and integration tests are automatically executed to maintain development standards.</td>
+            <td>High</td>
+            <td>Thorough Testing</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConfiguracaoConsentimentoEndorser.md" target='_blank'> Consent Configuration - Endorser </a></td>
+            <td>As an endorser user, I want to configure my consent regarding terms and policies, so I can manage how my data is used on the platform.</td>
+            <td>High</td>
+            <td>Consent Mechanism Compliance</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target='_blank'> AI Model for Score </a></td>
+            <td>As a data scientist, I want to test various AI algorithms that generate a credit score for each endorser, so I can evaluate their reliability in fulfilling credit obligations.</td>
+            <td>High</td>
+            <td>Documentation</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/loginAutenticacaoEndorser.md" target='_blank'> Endorser Login/Authentication </a></td>
+            <td>As an endorser user, I want to authenticate on the platform using my CNPJ and password, so I can access my account and view my score, provided I have accepted the terms.</td>
+            <td>High</td>
+            <td>Training Materials</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+  ## Sprint 1 Detailed Objective:
+
+**Objective:**  
+To develop and implement the foundational components of the AI model that generates credit scores based on CNPJ data, enabling users to effectively access and analyze their credit score values. This sprint aims to achieve the following specific goals:
+
+1. **AI Model Development:**
+   - Research and select multiple AI algorithms suitable for credit scoring based on CNPJ data.
+   - Develop and test initial versions of the AI models to generate credit scores, ensuring that they accurately reflect the user's creditworthiness and commitment.
+
+2. **User Access and Experience:**
+   - Implement a secure and user-friendly login functionality for CNPJ users on the web platform, allowing them to authenticate and access their individual credit scores.
+   - Design an intuitive interface that displays the user's credit score alongside relevant historical data, enhancing the user experience and promoting informed decision-making.
+
+3. **Data Transformation and Storage:**
+   - Clean and preprocess the necessary data to ensure its quality and reliability for AI model testing.
+   - Transform and store this data in the database, making it accessible for the AI model, while also maintaining data integrity and compliance with relevant regulations.
+
+4. **Testing and Validation:**
+   - Conduct thorough testing of both the AI models and the web platform functionalities to identify and resolve any issues before deployment.
+   - Gather user feedback during testing to refine the AI scoring process and the user interface, ensuring alignment with user expectations and requirements.
+
+5. **Documentation and Knowledge Transfer:**
+   - Document the processes, algorithms, and methodologies used in developing the AI model for future reference and scalability.
+   - Prepare training materials and sessions for team members and stakeholders to facilitate understanding and support for the new features introduced in this sprint.
+
+By the end of Sprint 1, users should be able to log in to the web platform, view their credit scores generated by the AI model, and access historical data relevant to their credit endorsements, paving the way for more advanced analytics and insights in subsequent sprints.
+
+## Backlog Sprint 1:
+<h3>Functional Requirements</h3>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Story</th>
+            <th>Description</th>
+            <th>Priority</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/loginAutenticacaoEndorser.md" target='_blank'> Endorser Login/Authentication </a></td>
+            <td>As an endorser user, I want to authenticate on the platform using my CNPJ and password, so I can access my account and view my score, provided I have accepted the terms.</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target='_blank'> AI Model for Score </a></td>
+            <td>As a data scientist, I want to test various AI algorithms that generate a credit score for each endorser, so I can evaluate their reliability in fulfilling credit obligations.</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/transformacaoDosDadosParaIA.md" target='_blank'> Data Transformation for AI </a></td>
+            <td>As a data engineer, I want to transform and clean data according to predefined rules, so unnecessary data is removed and the cleaned data is accessible for testing AI algorithms.</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/loginAutenticacaoEndorser.md" target='_blank'> Consent Configuration - Endorser </a></td>
+            <td>As an endorser user, I want to configure my consent regarding terms and policies, so I can manage how my data is used on the platform.</td>
+            <td>High</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Wireframe Sprint 1:
+
+<details>
+    <summary>Show Wireframes</summary>
+        <h2>Login Page</h2>
+        <img src="./Documents/IMGS/wireframe/LoginSpc.png" alt="Login Page">
+        <h2>Home Page</h2>
+        <img src="./Documents/IMGS/wireframe/HomeSpcGrafeno.png" alt="Home Page">
+        <h2>Bills Table Page</h2>
+        <img src="./Documents/IMGS/wireframe/COntratosSpc.png" alt="Bills Table Page">
+</details>
+
+<h3><a href = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/README.md" target='_blank'> Tutorial to build application: </a></h3
+
+## Final App Sprint 1:
+
+<details>
+    <summary>Show Application</summary>
+    <h2>Login Endorser Medium Score</h2>
+    <img src="./Documents/GIF/Teste%20com%20Score%20Médio.gif" alt="Medium Score" style="max-width: 100%; height: auto;">
+    <h2>Login Endorser Low Score</h2>
+    <img src="./Documents/GIF/Teste%20com%20Score%20Baixo.gif" alt="Low Score" style="max-width: 100%; height: auto;">
+</details>
+
+## Sprint 2 Objective
+
+This sprint aims to develop AI-based solutions to predict the finalization of duplicates. Additionally, it will focus on implementing a consent mechanism in compliance with the LGPD and improving the AI score model.
+
+### Key Goals:
+
+- **Duplicate Finalization Prediction:** Create an AI model to analyze user inputs and predict whether a duplicate will be finalized, enabling informed decision-making.
+
+- **Improvement of AI Score Model:** Enhance the existing AI score model to increase accuracy and reliability in predicting user credit scores.
+
+- **Completion of LGPD-Compliant Consent Mechanism:** Finalize the consent system to give users clear control over their personal data and ensure legal compliance.
+
+### Expected Impact:
+
+Effective predictions will enable users to make informed financial decisions, enhancing asset management. The consent mechanism will ensure legal compliance and build user trust in the platform.
+
+### Sprint Outcome:
+
+At the end of the sprint, we expect to deliver a functional AI model, an intuitive user interface for duplicate predictions, and a robust consent system fully compliant with legal requirements.
+
+## Sprint 2 Backlog:
+
+<h2>Functional Requirements</h2>
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th>User Story</th>
+      <th>Description</th>
+      <th>Requirement</th>
+      <th>Priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PipelineDeCIBackend.md" target='_blank'> CI Pipeline for Backend </a></td>
+      <td>
+        As a backend developer, I want to build a Continuous Integration (CI) pipeline for the backend repository, so that unit and integration tests are automatically executed, ensuring code quality before merging into the main branch.
+      </td>
+      <td>Thorough Testing</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><a href = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/CIPipelineForFrontend.md" target='_blank'> CI Pipeline for Frontend </a></td>
+      <td>
+        As a frontend developer, I want a CI pipeline for the frontend repository, so that unit and integration tests are automatically executed to maintain development standards.
+      </td>
+      <td>Thorough Testing</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/transformacaoDosDadosParaIA.md" target='_blank'> Data Transformation for AI </a></td>
+      <td>As a data engineer, I want to transform and clean data according to predefined rules, so unnecessary data is removed and the cleaned data is accessible for testing AI algorithms.</td>
+        <td>Data Cleaning and Preprocessing, Data Storage</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target='_blank'> AI Model for Score </a></td>
+      <td>As a data scientist, I want to test various AI algorithms that generate a credit score for each endorser, so I can evaluate their reliability in fulfilling credit obligations.</td>
+        <td>Research AI Algorithms, Develop Initial AI Models, Thorough Testing</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><a href = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoDeFinalizacaoDeDuplicatasSPC.md" target='_blank'> Duplicate Completion Prediction - SPC </a></td>
+      <td>
+        As an SPC user, I want to predict the finalization of a duplicate based on provided parameters, so that I can understand the likelihood of a specific duplicate being finalized or not.
+      </td>
+      <td>Predict Duplicate Finalization</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><a href = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/OtimizacaodeModelosIA.md" target='_blank'> Optimization of AI Models </a></td>
+      <td>
+        As a data scientist, I want to optimize selected AI models, so that I can achieve higher accuracy in predicting credit scores and invoice finalizations.
+      </td>
+      <td>Improve AI Score Model</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><a href = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/preverFinalizacaoDeFaturas.md" target='_blank'> AI Model for Duplicate Prediction </a></td>
+      <td>
+        As a data scientist, I want to develop an AI model to predict whether an invoice will be finalized, so that I can help the finance team identify invoices with a high probability of finalization.
+      </td>
+      <td>Predict Duplicate Finalization</td>
+      <td>Medium</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Non-Functional Requirements</h2>
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th>User Story</th>
+      <th>Description</th>
+      <th>Requirement</th>
+      <th>Priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PipelineDeCIBackend.md" target='_blank'> CI Pipeline for Backend </a></td>
+      <td>
+        As a backend developer, I want to build a Continuous Integration (CI) pipeline for the backend repository, so that unit and integration tests are automatically executed, ensuring code quality before merging into the main branch.
+      </td>
+      <td>Documentation</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><a href = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConfiguracaoConsentimentoEndorser.md" target='_blank'> Consent Configuration - Endorser </a></td>
+      <td>
+        As an endorser user, I want to configure my consent regarding terms of acceptance/policies, so that I can manage how my data is used on the platform.
+      </td>
+      <td>Consent Mechanism Compliance</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><a href = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/CIPipelineForFrontend.md" target='_blank'> CI Pipeline for Frontend </a></td>
+      <td>
+        As a frontend developer, I want a CI pipeline for the frontend repository, so that unit and integration tests are automatically executed to maintain development standards.
+      </td>
+      <td>Documentation</td>
+      <td>High</td>
+    </tr>
+  </tbody>
+</table>
+
+### Used Technologies
+- [Typescript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en)
+- [PostgreSql](https://https://www.postgresql.org/)
+- [Vue.js](https://vuejs.org/)
+- [Python](https://www.python.org/)
+- [Railway](https://railway.app/)
+- [Docker/Docker Compose](https://www.docker.com/)
+  
+
+<br><br>
+
+## Schedule:
+
+| Event             | Date           |
+| ----------------- | -------------- |
+| Kick-off          | 02/09 to 08/09 |
+| Sprint 1          | 09/09 to 29/09 |
+| Review            | 30/09 to 04/10 |
+| Sprint 2          | 07/10 to 27/10 |
+| Review            | 28/10 to 01/11 |
+| Sprint 3          | 04/11 to 24/11 |
+| Review            | 25/11 to 11/12 |
+| Feira de Soluções | 12/12          |
+
+<p align="right">(<a href="#top">Scroll to top</a>)</p>
+
+## Team
+
+| Avatar                                                     | Student               | Function         | GitHub                                                              | LinkedIn                                                                           |
+| ---------------------------------------------------------- | --------------------- | ---------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| <img src = "./Documents/Time/daniela.png" width="60" >    | **Daniela Meirelles** | _Scrum Master_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/DanielaMeirelles)     | [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/daniela-meirelles-1990/)                                                   
+| <img src = "./Documents/Time/leonardo.png" width="60" >   | **Leonardo Adler**    | _Product Owner_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/LeoAdlerr)           | [![](https://bit.ly/2P1ZogM)](https://br.linkedin.com/in/leonardo-adler-6b4a37228)                                                   
+| <img src = "./Documents/Time/felipe.png" width="60" >     | **Felipe Augusto**    | _Developer Team_   | [![](https://bit.ly/3f9Xo0P)](https://github.com/FelipeASousa)     | [![](https://bit.ly/2P1ZogM)]()
+| <img src = "./Documents/Time/gabriel.png" width="60" >    | **Gabriel Timoteo**   | _Developer Team_  | [![](https://bit.ly/3f9Xo0P)](https://github.com/gatimoteo) | [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/gabriel-timoteo-santos)                                                 
+| <img src = "./Documents/Time/guilherme.jpeg" width="60" > | **Guilherme Alves**   | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/guilherme0066)      | [![](https://bit.ly/2P1ZogM)]()|
+| <img src = "./Documents/Time/lucas.png" width="60" >      | **Lucas Barcelos**    | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/lucassbarcelos)     | [![](https://bit.ly/2P1ZogM)]()                                                   
+| <img src = "./Documents/Time/nicolas.png" width="60" >   | **Nicolas Cursino**   | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/nicursino)          | [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/nicolas-magarifuchi-406935184/)
+
+<p align="right">(<a href="#top">Scroll to top</a>)</p>
+
+## Documentation
+- [Commit Pattern](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/wiki/Commit-Pattern)
+
+ 
+
+## License
+This project was created under the MIT license - look the file [LICENSE](LICENSE) for more details.

@@ -1,0 +1,12 @@
+[submodule "RepoAI-IA"]
+	path = RepoAI-IA
+	url = https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-IA.git
+
+
+[submodule "repoBackEnd_"]
+	path = repoBackEnd_
+	url = https://github.com/quarks-team/ip4-recivables.git
+
+[submodule "repoFrontend"]
+	path = repoFrontend
+	url = https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-Front.git
