@@ -117,6 +117,12 @@ We propose developing a system that analyzes the reliability of endorsers using 
             <td>Low</td>
             <td>Web Platform</td>
         </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/configuracaoConsentimentoEndorser.md" target='_blank'> Consent Configuration - Endorser </a></td>
+            <td>As an endorser user, I want to configure my consent regarding terms and policies, so I can manage how my data is used on the platform.</td>
+            <td>High</td>
+            <td>Compliance, Usability</td>
+        </tr>
     </tbody>
 </table>
 
@@ -144,21 +150,19 @@ We propose developing a system that analyzes the reliability of endorsers using 
             <td>Documentation, Security</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConfiguracaoConsentimentoEndorser.md" target='_blank'> Consent Configuration - Endorser </a></td>
-            <td>As an endorser user, I want to configure my consent regarding terms and policies, so I can manage how my data is used on the platform.</td>
-            <td>High</td>
-            <td>Compliance, Usability</td>
-        </tr>
-        <tr>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target='_blank'> AI Model for Score </a></td>
             <td>As a data scientist, I want to test various AI algorithms that generate a credit score for each endorser, so I can evaluate their reliability in fulfilling credit obligations.</td>
             <td>High</td>
-            <td>Performance, Scalability</td>
+            <td>Documentation, Performance</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrivacyPolicy.md" target='_blank'> Privacy Policy </a></td>
+            <td>As a user, I want to access the privacy policy of the application, so I understand how my data will be used and protected.</td>
+            <td>Medium</td>
+            <td>Compliance, Usability</td>
         </tr>
     </tbody>
 </table>
-
-
 
 
   ## Sprint 1 Detailed Objective:
