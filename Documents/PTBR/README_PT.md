@@ -4,26 +4,54 @@
 
 ## Repositório contendo o manual e outros repositórios do projeto integrador 2024-2.
 
-# Contexto
+### Contexto
 
-Fomos contratados por um registro de ativos financeiros (SPC Grafeno) para criar novos produtos financeiros inovadores utilizando técnicas de aprendizado de máquina. A empresa forneceu uma base de dados diversificada contendo informações históricas sobre uma variedade de ativos financeiros, transações e comportamentos de mercado.
+Fomos contratados por um registro de ativos financeiros (SPC Grafeno) para desenvolver novos produtos financeiros inovadores utilizando técnicas de aprendizado de máquina. A empresa forneceu uma base de dados diversificada contendo informações históricas sobre uma variedade de ativos financeiros, transações e comportamentos de mercado.
 
-# Desafio
+### Desafio
 
-O desafio é explorar essa base de dados, identificar padrões e oportunidades, e desenvolver um ou mais produtos financeiros que possam agregar valor tanto para a empresa quanto para seus clientes.
+O desafio é explorar essa base de dados, identificar padrões e oportunidades, e criar um ou mais produtos financeiros que possam agregar valor tanto para a SPC Grafeno quanto para seus clientes.
 
-Esperamos utilizar técnicas de aprendizado de máquina para prever tendências, identificar riscos ou até mesmo propor métodos de avaliação de ativos. Nossa solução deve ser implementada em um protótipo que demonstre a viabilidade do produto proposto, incluindo uma descrição do modelo utilizado, justificativa para a escolha das técnicas empregadas e uma avaliação de desempenho do modelo.
+Esperamos utilizar técnicas de aprendizado de máquina para:
+- Prever tendências de mercado
+- Identificar riscos
+- Propor métodos de avaliação de ativos
 
-Ao final, precisaremos apresentar nossos resultados em um relatório, juntamente com uma apresentação que explique de forma clara e objetiva como sua solução pode ser utilizada pela empresa e quais benefícios pode trazer para o registro e seus clientes.
+Nossa solução deve culminar em um protótipo que demonstre a viabilidade do produto proposto, incluindo:
+- Uma descrição detalhada do modelo utilizado
+- Justificativa para a escolha das técnicas
+- Uma avaliação de desempenho do modelo
 
-## Solução Proposta:
-Um sistema que analisa a confiabilidade de um endossante através de algoritmos/modelos de IA que podem gerar um escore demonstrando como bem uma empresa mantém seu compromisso com o crédito. Como apenas ter uma fatura é praticamente uma garantia de que o valor contratado no adiantamento será pago.
+Ao final do projeto, precisaremos apresentar nossos resultados em um relatório, complementado por uma apresentação que explique claramente como nossa solução pode ser utilizada pela SPC Grafeno e quais benefícios pode trazer para o registro e seus clientes.
+
+### Solução Proposta
+
+Propomos desenvolver um sistema que analisa a confiabilidade de um endossante utilizando algoritmos e modelos de IA. Esse sistema gerará um escore que reflete o quanto uma empresa mantém seu compromisso com o crédito. Dado que ter uma fatura geralmente garante que o valor contratado no adiantamento será pago, nossa solução visa aprimorar o processo de avaliação tanto para a empresa quanto para seus clientes.
+
+## Requisitos
+
+### Requisitos Funcionais
+1. **Geração de Escore de IA**: Desenvolver um sistema de IA que gere um escore de crédito com base nos dados históricos do endossante.
+2. **Plataforma Web**: Criar uma plataforma web que exiba o escore para usuários endossantes e seus dados históricos.
+3. **Mecanismo de Consentimento**: Implementar um mecanismo de consentimento onde os usuários podem concordar ou revogar o uso de seus dados de acordo com a LGPD.
+4. **Previsão de Conclusão de Duplicatas**: Usar IA para prever a probabilidade de um contrato ser finalizado com base nos dados do usuário.
+5. **Feedback de Escore em Tempo Real**: Permitir que os clientes insiram seus dados e vejam como isso impacta seu escore em tempo real.
+6. **Ajuste de Escore Alvo**: Fornecer um mecanismo para que os clientes insiram um escore alvo e recebam sugestões sobre quais mudanças são necessárias para alcançá-lo.
+7. **Acesso aos Dados**: Os usuários do SPC terão acesso a todos os dados dos usuários que consentiram com o uso dos dados, enquanto os usuários endossantes podem acessar apenas seus próprios dados.
+
+### Requisitos Não Funcionais
+1. **Conformidade**: Garantir que o sistema esteja em conformidade com a Lei Geral de Proteção de Dados (LGPD).
+2. **Segurança**: Implementar processos seguros de autenticação e autorização para proteger os dados dos usuários.
+3. **Usabilidade**: Projetar uma interface de usuário intuitiva para a plataforma web que facilite a navegação e o acesso aos dados.
+4. **Desempenho**: Garantir que os modelos de IA forneçam respostas em tempo hábil para feedback em tempo real.
+5. **Escalabilidade**: Projetar o sistema para lidar com cargas aumentadas à medida que o número de usuários cresce.
+6. **Documentação**: Fornecer documentação abrangente para usuários e desenvolvedores.
 
 <br>
 
-## Backlog:
+### Backlog:
 
-<h3>Requisitos Funcionais</h3>
+#### Requisitos Funcionais
 <table border="1">
     <thead>
         <tr>
@@ -88,10 +116,16 @@ Um sistema que analisa a confiabilidade de um endossante através de algoritmos/
             <td>Baixa</td>
             <td>Design de Interface do Usuário, Coleta de Feedback do Usuário</td>
         </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/configuracaoDeConsentimentoEndorser.md" target='_blank'> Configuração de Consentimento - Endossante </a></td>
+            <td>Como usuário endossante, quero configurar meu consentimento em relação aos termos de aceite/políticas, para que eu possa gerenciar como meus dados são utilizados na plataforma.</td>
+            <td>Alta</td>
+            <td>Configuração de Consentimento</td>
+        </tr>
     </tbody>
 </table>
 
-<h3>Requisitos Não Funcionais</h3>
+#### Requisitos Não Funcionais
 <table border="1">
     <thead>
         <tr>
@@ -103,37 +137,39 @@ Um sistema que analisa a confiabilidade de um endossante através de algoritmos/
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/PipelineDeCIBackend.md" target='_blank'> Pipeline de CI para Backend </a></td>
-            <td>Como um desenvolvedor, quero construir um pipeline de Integração Contínua (CI) para o repositório backend, para que testes unitários e de integração sejam executados automaticamente, garantindo a qualidade do código antes da mesclagem para o branch principal.</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/loginAutenticacaoEndorser.md" target='_blank'> Segurança na Autenticação </a></td>
+            <td>Como usuário da plataforma, quero que meu login seja seguro, para que meus dados estejam protegidos contra acessos não autorizados.</td>
             <td>Alta</td>
-            <td>Testes Abrangentes</td>
+            <td>Segurança</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/CIPipelineForFrontend.md" target='_blank'> Pipeline de CI para Frontend </a></td>
-            <td>Como um desenvolvedor frontend, quero um pipeline de CI para o repositório frontend, para que testes unitários e de integração sejam executados automaticamente para manter os padrões de desenvolvimento.</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/designInterfaceUsuario.md" target='_blank'> Design da Interface do Usuário </a></td>
+            <td>Como usuário da plataforma, quero uma interface intuitiva, para que eu possa navegar facilmente e encontrar as informações que preciso.</td>
             <td>Alta</td>
-            <td>Testes Abrangentes</td>
+            <td>Usabilidade</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/ConfiguracaoConsentimentoEndorser.md" target='_blank'> Configuração de Consentimento - Endossante </a></td>
-            <td>Como um usuário endossante, quero configurar meu consentimento em relação a termos e políticas, para que eu possa gerenciar como meus dados são usados na plataforma.</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/performanceDoSistema.md" target='_blank'> Desempenho do Sistema </a></td>
+            <td>Como usuário da plataforma, quero que as respostas da IA sejam rápidas, para que eu possa obter feedback em tempo hábil sobre o meu escore de crédito.</td>
             <td>Alta</td>
-            <td>Conformidade com o Mecanismo de Consentimento</td>
+            <td>Desempenho</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/ModeloIAVisandoScore.md" target='_blank'> Modelo de IA para Score </a></td>
-            <td>Como um cientista de dados, quero testar vários algoritmos de IA que geram um escore de crédito para cada endossante, para que eu possa avaliar sua confiabilidade em cumprir obrigações de crédito.</td>
-            <td>Alta</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/escalaSistema.md" target='_blank'> Escalabilidade do Sistema </a></td>
+            <td>Como administrador do sistema, quero que a arquitetura do sistema seja escalável, para que possamos atender a um aumento no número de usuários sem degradação no desempenho.</td>
+            <td>Média</td>
+            <td>Escalabilidade</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/documentacaoDoSistema.md" target='_blank'> Documentação do Sistema </a></td>
+            <td>Como desenvolvedor, quero que a documentação do sistema seja abrangente e acessível, para que possamos entender facilmente as funcionalidades e como utilizar a plataforma.</td>
+            <td>Média</td>
             <td>Documentação</td>
-        </tr>
-        <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/PTBRUs/loginAutenticacaoEndorser.md" target='_blank'> Login/Autenticação do Endossante </a></td>
-            <td>Como um usuário endossante, quero me autenticar na plataforma usando meu CNPJ e senha, para que eu possa acessar minha conta e visualizar meu escore, desde que eu tenha aceito os termos.</td>
-            <td>Alta</td>
-            <td>Segurança de Dados</td>
         </tr>
     </tbody>
 </table>
+
+
 
 
 ## Objetivo Detalhado da Sprint 1:
