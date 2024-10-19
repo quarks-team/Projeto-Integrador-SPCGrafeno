@@ -56,6 +56,7 @@ We propose developing a system that analyzes the reliability of endorsers using 
 <table border="1">
     <thead>
         <tr>
+            <th>ID</th>
             <th>Story</th>
             <th>Description</th>
             <th>Priority</th>
@@ -64,64 +65,74 @@ We propose developing a system that analyzes the reliability of endorsers using 
     </thead>
     <tbody>
         <tr>
+            <td>1</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/loginAutenticacaoEndorser.md" target='_blank'> Endorser Login/Authentication </a></td>
             <td>As an endorser user, I want to authenticate on the platform using my CNPJ and password, so I can access my account and view my score, provided I have accepted the terms.</td>
             <td>High</td>
             <td>AI Score Generation, Web Platform</td>
         </tr>
         <tr>
+            <td>2</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/transformacaoDosDadosParaIA.md" target='_blank'> Data Transformation for AI </a></td>
             <td>As a data engineer, I want to transform and clean data according to predefined rules, so unnecessary data is removed and the cleaned data is accessible for testing AI algorithms.</td>
             <td>High</td>
             <td>Data Access, Data Cleaning and Preprocessing</td>
         </tr>
         <tr>
+            <td>3</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target='_blank'> AI Model for Score </a></td>
             <td>As a data scientist, I want to test various AI algorithms that generate a credit score for each endorser, so I can evaluate their reliability in fulfilling credit obligations.</td>
             <td>High</td>
             <td>AI Score Generation, Real-Time Score Feedback</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoDeFinalizacaoDeDuplicatasSPC.md" target='_blank'> Duplicate Completion Prediction - SPC </a></td>
-            <td>As an SPC user, I want to predict the completion of a duplicate based on provided parameters, so I can understand the likelihood of a specific duplicate being finalized.</td>
-            <td>Medium</td>
-            <td>Duplicate Completion Prediction</td>
-        </tr>
-        <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoScoreSPC.md" target='_blank'> Score Prediction - SPC </a></td>
-            <td>As an SPC user, I want to predict the score of an endorser based on parameters that I will input, so I can understand how changes in parameters affect the user's credit score.</td>
-            <td>Medium</td>
-            <td>Real-Time Score Feedback</td>
-        </tr>
-        <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/previsaoScoreAlvoEndorser.md" target='_blank'> Target Score Prediction - Endorser </a></td>
-            <td>As an endorser user, I want to discover what changes are necessary to achieve a target score that I will provide, so I can make informed decisions and improve my credit situation.</td>
-            <td>Medium</td>
-            <td>Target Score Adjustment</td>
-        </tr>
-        <tr>
+            <td>4</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/preverFinalizacaoDeFaturas.md" target='_blank'> AI Model for Duplicate Prediction </a></td>
             <td>As a data scientist, I want to test various AI algorithms that generate a duplicate status prediction, so I can evaluate the reliability in fulfilling credit obligations.</td>
             <td>High</td>
             <td>Duplicate Completion Prediction</td>
         </tr>
         <tr>
+            <td>5</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/configuracaoConsentimentoEndorser.md" target='_blank'> Consent Configuration - Endorser </a></td>
+            <td>As an endorser user, I want to configure my consent regarding terms and policies, so I can manage how my data is used on the platform.</td>
+            <td>High</td>
+            <td>Compliance, Usability</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoDeFinalizacaoDeDuplicatasSPC.md" target='_blank'> Duplicate Completion Prediction - SPC </a></td>
+            <td>As an SPC user, I want to predict the completion of a duplicate based on provided parameters, so I can understand the likelihood of a specific duplicate being finalized.</td>
+            <td>Medium</td>
+            <td>Duplicate Completion Prediction</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoScoreSPC.md" target='_blank'> Score Prediction - SPC </a></td>
+            <td>As an SPC user, I want to predict the score of an endorser based on parameters that I will input, so I can understand how changes in parameters affect the user's credit score.</td>
+            <td>Medium</td>
+            <td>Real-Time Score Feedback</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/previsaoScoreAlvoEndorser.md" target='_blank'> Target Score Prediction - Endorser </a></td>
+            <td>As an endorser user, I want to discover what changes are necessary to achieve a target score that I will provide, so I can make informed decisions and improve my credit situation.</td>
+            <td>Medium</td>
+            <td>Target Score Adjustment</td>
+        </tr>
+        <tr>
+            <td>9</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/OtimizacaodeModelosIA.md" target='_blank'> Optimization of AI Models </a></td>
             <td>As a data scientist, I want to optimize the selected AI models, so I can achieve greater accuracy in predicting credit scores and invoice completion.</td>
             <td>Low</td>
             <td>AI Score Generation</td>
         </tr>
         <tr>
+            <td>10</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/dashboardAnaliseCnpjsScore.md" target='_blank'> Dashboard for CNPJ Score Analysis </a></td>
             <td>As a financial analyst, I want to visualize a dashboard that shows the evolution of credit scores for each CNPJ, so I can understand the key metrics that impact these scores.</td>
             <td>Low</td>
             <td>Web Platform</td>
-        </tr>
-        <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/configuracaoConsentimentoEndorser.md" target='_blank'> Consent Configuration - Endorser </a></td>
-            <td>As an endorser user, I want to configure my consent regarding terms and policies, so I can manage how my data is used on the platform.</td>
-            <td>High</td>
-            <td>Compliance, Usability</td>
         </tr>
     </tbody>
 </table>
@@ -130,6 +141,7 @@ We propose developing a system that analyzes the reliability of endorsers using 
 <table border="1">
     <thead>
         <tr>
+            <th>ID</th>
             <th>Story</th>
             <th>Description</th>
             <th>Priority</th>
@@ -138,24 +150,28 @@ We propose developing a system that analyzes the reliability of endorsers using 
     </thead>
     <tbody>
         <tr>
+            <td>11</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PipelineDeCIBackend.md" target='_blank'> CI Pipeline for Backend </a></td>
             <td>As a developer, I want to build a Continuous Integration (CI) pipeline for the backend repository, so unit and integration tests are automatically executed, ensuring code quality before merging to the main branch.</td>
             <td>High</td>
             <td>Documentation, Security</td>
         </tr>
         <tr>
+            <td>12</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/CIPipelineForFrontend.md" target='_blank'> CI Pipeline for Frontend </a></td>
             <td>As a frontend developer, I want a CI pipeline for the frontend repository, so unit and integration tests are automatically executed to maintain development standards.</td>
             <td>High</td>
             <td>Documentation, Security</td>
         </tr>
         <tr>
+            <td>13</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target='_blank'> AI Model for Score </a></td>
             <td>As a data scientist, I want to test various AI algorithms that generate a credit score for each endorser, so I can evaluate their reliability in fulfilling credit obligations.</td>
             <td>High</td>
             <td>Documentation, Performance</td>
         </tr>
         <tr>
+            <td>14</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrivacyPolicy.md" target='_blank'> Privacy Policy </a></td>
             <td>As a user, I want to access the privacy policy of the application, so I understand how my data will be used and protected.</td>
             <td>Medium</td>
@@ -163,6 +179,7 @@ We propose developing a system that analyzes the reliability of endorsers using 
         </tr>
     </tbody>
 </table>
+
 
 
   ## Sprint 1 Detailed Objective:
@@ -193,10 +210,12 @@ To develop and implement the foundational components of the AI model that genera
 By the end of Sprint 1, users should be able to log in to the web platform, view their credit scores generated by the AI model, and access historical data relevant to their credit endorsements, paving the way for more advanced analytics and insights in subsequent sprints.
 
 ## Backlog Sprint 1:
+
 <h3>Functional Requirements</h3>
 <table border="1">
     <thead>
         <tr>
+            <th>ID</th>
             <th>Story</th>
             <th>Description</th>
             <th>Priority</th>
@@ -204,22 +223,26 @@ By the end of Sprint 1, users should be able to log in to the web platform, view
     </thead>
     <tbody>
         <tr>
+            <td>1</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/loginAutenticacaoEndorser.md" target='_blank'> Endorser Login/Authentication </a></td>
             <td>As an endorser user, I want to authenticate on the platform using my CNPJ and password, so I can access my account and view my score, provided I have accepted the terms.</td>
             <td>High</td>
         </tr>
         <tr>
+            <td>3</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target='_blank'> AI Model for Score </a></td>
             <td>As a data scientist, I want to test various AI algorithms that generate a credit score for each endorser, so I can evaluate their reliability in fulfilling credit obligations.</td>
             <td>High</td>
         </tr>
         <tr>
+            <td>2</td>
             <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/transformacaoDosDadosParaIA.md" target='_blank'> Data Transformation for AI </a></td>
             <td>As a data engineer, I want to transform and clean data according to predefined rules, so unnecessary data is removed and the cleaned data is accessible for testing AI algorithms.</td>
             <td>High</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/loginAutenticacaoEndorser.md" target='_blank'> Consent Configuration - Endorser </a></td>
+            <td>5</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/configuracaoConsentimentoEndorser.md" target='_blank'> Consent Configuration - Endorser </a></td>
             <td>As an endorser user, I want to configure my consent regarding terms and policies, so I can manage how my data is used on the platform.</td>
             <td>High</td>
         </tr>
