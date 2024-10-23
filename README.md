@@ -341,8 +341,8 @@ At the end of the sprint, we expect to deliver a functional AI model, an intuiti
 
 ## Documentation
 - [Commit Pattern](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/wiki/Commit-Pattern)
+- [Documentation of Consent Processes](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/wiki/Documentation-of-Consent-Processes)
 
- 
 
 ## License
 This project was created under the MIT license - look the file [LICENSE](LICENSE) for more details.
