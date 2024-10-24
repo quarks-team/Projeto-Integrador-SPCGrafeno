@@ -342,6 +342,7 @@ At the end of the sprint, we expect to deliver a functional AI model, an intuiti
 ## Documentation
 - [Commit Pattern](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/wiki/Commit-Pattern)
 - [Documentation of Consent Processes](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/wiki/Documentation-of-Consent-Processes)
+- [Weight Rules for the AI Score](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/wiki/AI-Score-Weight-Rules-Documentation)
 
 
 ## License
