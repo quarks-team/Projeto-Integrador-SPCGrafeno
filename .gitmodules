@@ -19,3 +19,6 @@
 [submodule "ProjetoIntegrador-SpcGrafeno-Front"]
 	path = ProjetoIntegrador-SpcGrafeno-Front
 	url = https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-Front
+[submodule "Projeto-Integrador-SPCGrafeno-BD"]
+	path = Projeto-Integrador-SPCGrafeno-BD
+	url = https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno-BD
