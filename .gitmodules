@@ -10,3 +10,12 @@
 [submodule "repoFrontend"]
 	path = repoFrontend
 	url = https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-Front.git
+[submodule "ProjetoIntegrador-SpcGrafeno-IA"]
+	path = ProjetoIntegrador-SpcGrafeno-IA
+	url = https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-IA
+[submodule "ProjetoIntegrador-SpcGrafeno-Backend"]
+	path = ProjetoIntegrador-SpcGrafeno-Backend
+	url = https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-Backend
+[submodule "ProjetoIntegrador-SpcGrafeno-Front"]
+	path = ProjetoIntegrador-SpcGrafeno-Front
+	url = https://github.com/quarks-team/ProjetoIntegrador-SpcGrafeno-Front
