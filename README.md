@@ -498,6 +498,27 @@ At the end of the sprint, we expect to deliver a functional AI model, an intuiti
   </tbody>
 </table>
 
+## Sprint 2 app addtions:
+<details>
+    <summary>Finalization probabilty page</summary>
+    <h2>Blank</h2>
+    <img src="./Documents/IMGS/duplicataBlankQuarksSpcGrafenoS2.png" alt="High Probability" style="max-width: 100%; height: auto;">
+    <h2>Probability low</h2>
+    <img src="./Documents/GIF/Teste%20com%20Score%20Médio.gif" alt="Low Probability" style="max-width: 100%; height: auto;">
+    <h2>Probability high</h2>
+    <img src="./Documents/IMGS/duplicataBaixaQuarksSpcGrafenoS2.png" alt="High Probability" style="max-width: 100%; height: auto;">
+</details>
+<details>
+    <summary>Consent configuration page</summary>
+    <img src="./Documents/IMGS/teleConfigQuarksSpcGrafenoS2.png" alt="High Probability" style="max-width: 100%; height: auto;">
+</details>
+<details>
+    <summary>Finalization probabilty page</summary>
+    <h2>Blank</h2>
+    <img src="./Documents/IMGS/duplicataBlankQuarksSpcGrafenoS2.png" alt="High Probability" style="max-width: 100%; height: auto;">
+</details>
+
+
 ## Url to access the backend
 ip4-recivables-production.up.railway.app
 
