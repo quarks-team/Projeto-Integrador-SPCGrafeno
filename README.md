@@ -37,18 +37,20 @@ We propose developing a system that analyzes the reliability of endorsers using 
 1. **AI Score Generation**: Develop an AI system that generates a credit score based on the endorser's historical data.
 2. **Web Platform**: Create a web platform that displays the score for endorser users and their historical data.
 3. **Consent Mechanism**: Implement a consent mechanism where users can agree to or revoke the use of their data in accordance with LGPD.
-4. **Duplicate Completion Prediction**: Use AI to predict the probability of a contract being finalized based on user data.
-5. **Real-Time Score Feedback**: Allow clients to input their data and see how it impacts their score in real time.
-6. **Target Score Adjustment**: Provide a mechanism for clients to enter a target score and receive suggestions on what changes are needed to achieve it.
-7. **Data Access**: SPC users will have access to all user data that consented to data usage, while endorser users can only access their own data.
+4. **Duplicate Completion Prediction**: Utilize AI to predict the probability of a contract being finalized based on user data, allowing data scientists to test various algorithms for reliability in fulfilling credit obligations.
+5. **Real-Time Score Feedback**: Enable clients to input their data and see how it impacts their score in real time.
+6. **Target Score Adjustment**: Provide a mechanism for clients to enter a target score and receive suggestions on what changes are needed to achieve it, including an interface for endorser users to discover necessary adjustments.
+7. **Variable Impact Insights**: Allow users to see which variables are influencing their credit score and the level of their impact, fostering informed decision-making.
+8. **Data Access**: Ensure that SPC users have access to all user data that consented to data usage, while endorser users can only access their own data.
 
 ### Non-Functional Requirements
 1. **Compliance**: Ensure the system complies with the General Data Protection Law (LGPD).
-2. **Security**: Implement secure authentication and authorization processes to protect user data.
-3. **Usability**: Design an intuitive user interface for the web platform that facilitates easy navigation and data access.
-4. **Performance**: Ensure that the AI models provide timely responses for real-time feedback.
-5. **Scalability**: Design the system to handle increased loads as the number of users grows.
-6. **Documentation**: Provide comprehensive documentation for both users and developers.
+2. **Security**: Implement secure authentication and authorization processes to protect user data, particularly ensuring endorser users can only access their own information.
+3. **Usability**: Design an intuitive user interface for the web platform that facilitates easy navigation and data access for both endorser and SPC users.
+4. **Performance**: Optimize the AI models to provide timely responses for real-time feedback, ensuring quick data processing and delivery.
+5. **Scalability**: Design the system to handle increased loads as the number of users grows, ensuring performance remains stable under higher usage.
+6. **Documentation**: Provide comprehensive documentation for both users and developers, including details on consent configurations, privacy policies, and API usage.
+
 
 ## Backlog
 
@@ -546,9 +548,6 @@ By the end of this sprint, we aim to achieve the following:
 
 These objectives are structured to deliver tangible improvements in user experience, data analysis capabilities, and compliance with data management best practices.
 
-
-
-## Sprint 3 Backlog
 
 ## Sprint 3 Backlog
 
