@@ -66,49 +66,49 @@ We propose developing a system that analyzes the reliability of endorsers using 
   </tr>
   <tr>
     <td>1</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DashboardAnalysis.md" target="_blank">Dashboard for duplicate market analysis</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/dashboardAnaliseCnpjsScore.md" target="_blank">Dashboard for duplicate market analysis</a></td>
     <td>Develop a dashboard for analyzing duplicate market data</td>
     <td>High</td>
     <td>Yes</td>
   </tr>
   <tr>
     <td>2</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/AIScoreModel.md" target="_blank">AI model for Score</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target="_blank">AI model for Score</a></td>
     <td>Create an AI model to generate user scores</td>
     <td>High</td>
     <td>Yes</td>
   </tr>
   <tr>
     <td>3</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/LoginAuthentication.md" target="_blank">Login/Authentication for Endorser</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/loginAutenticacaoEndorser.md" target="_blank">Login/Authentication for Endorser</a></td>
     <td>Implement login and authentication for endorser users</td>
     <td>High</td>
     <td>Yes</td>
   </tr>
   <tr>
     <td>4</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DataTransformationAI.md" target="_blank">Data Transformation for AI</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/transformacaoDosDadosParaIA.md" target="_blank">Data Transformation for AI</a></td>
     <td>Perform data transformation for AI model usage</td>
     <td>High</td>
     <td>Yes</td>
   </tr>
   <tr>
     <td>5</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DuplicataCompletionPrediction.md" target="_blank">Duplicate Completion Prediction - SPC</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoDeFinalizacaoDeDuplicatasSPC.md" target="_blank">Duplicate Completion Prediction - SPC</a></td>
     <td>Use AI to predict the completion of duplicate contracts</td>
     <td>High</td>
     <td>Yes</td>
   </tr>
   <tr>
     <td>6</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/InvoicePrediction.md" target="_blank">AI to Predict Invoice Completion</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/preverFinalizacaoDeFaturas.md" target="_blank">AI to Predict Invoice Completion</a></td>
     <td>Predict invoice completion using AI</td>
     <td>High</td>
     <td>Yes</td>
   </tr>
   <tr>
     <td>7</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DuplicataHistoryAccess.md" target="_blank">Access to Duplicate History - SPC</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/AcessoHistoricoDuplicatasSPC.md" target="_blank">Access to Duplicate History - SPC</a></td>
     <td>Enable access to duplicate history for SPC users</td>
     <td>Medium</td>
     <td>Yes</td>
@@ -122,7 +122,7 @@ We propose developing a system that analyzes the reliability of endorsers using 
   </tr>
   <tr>
     <td>9</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/TargetScoreRecommendation.md" target="_blank">Target Score Prediction/Recommendation - Endorser</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/previsaoScoreAlvoEndorser.md" target="_blank">Target Score Prediction/Recommendation - Endorser</a></td>
     <td>Provide recommendations to reach a target score</td>
     <td>High</td>
     <td>Yes</td>
@@ -148,21 +148,21 @@ We propose developing a system that analyzes the reliability of endorsers using 
   </tr>
   <tr>
     <td>1</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/BackendCIPipeline.md" target="_blank">Backend CI Pipeline</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PipelineDeCIBackend.md" target="_blank">Backend CI Pipeline</a></td>
     <td>Set up CI pipeline for the backend</td>
     <td>High</td>
     <td>Yes</td>
   </tr>
   <tr>
     <td>2</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/FrontendCIPipeline.md" target="_blank">Frontend CI Pipeline</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/CIPipelineForFrontend.md" target="_blank">Frontend CI Pipeline</a></td>
     <td>Set up CI pipeline for the frontend</td>
     <td>High</td>
     <td>Yes</td>
   </tr>
   <tr>
     <td>3</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/IAOptimization.md" target="_blank">AI Model Optimization</a></td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/OtimizacaodeModelosIA.md" target="_blank">AI Model Optimization</a></td>
     <td>Optimize AI models for better performance</td>
     <td>High</td>
     <td>Yes</td>
