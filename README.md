@@ -52,32 +52,122 @@ We propose developing a system that analyzes the reliability of endorsers using 
 6. **Documentation**: Provide comprehensive documentation for both users and developers, including details on consent configurations, privacy policies, and API usage.
 
 
-## Backlog
+<h2>Backlog of User Stories</h2>
 
-<h2>Backlog de User Stories</h2>
+<h3>Functional Requirements</h3>
 
-### Functional Requirements
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Story</th>
+    <th>Description</th>
+    <th>Priority</th>
+    <th>Functional Requirements Met</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DashboardAnalysis.md" target="_blank">Dashboard for duplicate market analysis</a></td>
+    <td>Develop a dashboard for analyzing duplicate market data</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/AIScoreModel.md" target="_blank">AI model for Score</a></td>
+    <td>Create an AI model to generate user scores</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/LoginAuthentication.md" target="_blank">Login/Authentication for Endorser</a></td>
+    <td>Implement login and authentication for endorser users</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DataTransformationAI.md" target="_blank">Data Transformation for AI</a></td>
+    <td>Perform data transformation for AI model usage</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DuplicataCompletionPrediction.md" target="_blank">Duplicate Completion Prediction - SPC</a></td>
+    <td>Use AI to predict the completion of duplicate contracts</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/InvoicePrediction.md" target="_blank">AI to Predict Invoice Completion</a></td>
+    <td>Predict invoice completion using AI</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DuplicataHistoryAccess.md" target="_blank">Access to Duplicate History - SPC</a></td>
+    <td>Enable access to duplicate history for SPC users</td>
+    <td>Medium</td>
+    <td>Yes</td>
+  </tr>
+    <tr>
+    <td>8</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConsentConfiguration.md" target="_blank">Security Requirements Based on LGPD</a></td>
+    <td>Set up consent mechanisms for endorsers</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/TargetScoreRecommendation.md" target="_blank">Target Score Prediction/Recommendation - Endorser</a></td>
+    <td>Provide recommendations to reach a target score</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DuplicataSeriesPrediction.md" target="_blank">AI to Predict Duplicate/Series Outcomes</a></td>
+    <td>AI for predicting duplicates and time series outcomes</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+</table>
 
-| ID  | Story                                                                                       | Description                                                                      | Priority | Functional Requirements Met |
-|-----|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------|------------------------------|
-| 1   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DashboardAnalysis.md" target='_blank'>Dashboard para análise do mercado de duplicatas</a> | Desenvolver um dashboard para análise de dados do mercado de duplicatas          | Alta     | Sim                          |
-| 2   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/AIScoreModel.md" target='_blank'>Modelo IA visando Score</a> | Criar um modelo de IA que gere o score dos usuários                              | Alta     | Sim                          |
-| 3   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/LoginAuthentication.md" target='_blank'>Login/Autenticação do Endorser</a> | Implementar login e autenticação para usuários endossantes                       | Alta     | Sim                          |
-| 4   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DataTransformationAI.md" target='_blank'>Transformação dos dados para IA</a> | Realizar a transformação dos dados para serem usados em modelos de IA            | Alta     | Sim                          |
-| 5   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DuplicataCompletionPrediction.md" target='_blank'>Previsão de Finalização de Duplicatas - SPC</a> | Utilizar IA para prever a finalização de contratos de duplicatas                 | Alta     | Sim                          |
-| 6   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/InvoicePrediction.md" target='_blank'>IA Prever a Finalização de Faturas</a> | Prever a finalização de faturas utilizando IA                                    | Alta     | Sim                          |
-| 7   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DuplicataHistoryAccess.md" target='_blank'>Acesso ao histórico de duplicatas - SPC</a> | Permitir acesso ao histórico de duplicatas para usuários SPC                     | Média    | Sim                          |
-| 8   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConsentConfiguration.md" target='_blank'>Configuração de Consentimento - endorser</a> | Configurar mecanismos de consentimento para os endossantes                       | Alta     | Sim                          |
-| 9   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/TargetScoreRecommendation.md" target='_blank'>Previsão de Score Alvo/Recomendação - endorser</a> | Fornecer recomendações para alcançar um score alvo                               | Alta     | Sim                          |
-| 10  | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DuplicataSeriesPrediction.md" target='_blank'>IA para prever resultados de duplicatas/séries temporais</a> | IA para previsão de duplicatas e séries temporais                                | Alta     | Sim                          |
+<h3>Non-Functional Requirements</h3>
 
-### Non-Functional Requirements
-
-| ID  | Story                                                                                       | Description                                                                      | Priority | Non-Functional Requirements Met |
-|-----|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------|----------------------------------|
-| 1   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/BackendCIPipeline.md" target='_blank'>Pipeline de CI backend</a> | Configurar pipeline de CI para o backend                                         | Alta     | Sim                              |
-| 2   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/FrontendCIPipeline.md" target='_blank'>Pipeline de CI frontend</a> | Configurar pipeline de CI para o frontend                                        | Alta     | Sim                              |
-| 3   | <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/IAOptimization.md" target='_blank'>Otimização de modelos IA</a> | Otimizar modelos de IA para melhor desempenho                                    | Alta     | Sim                              |
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Story</th>
+    <th>Description</th>
+    <th>Priority</th>
+    <th>Non-Functional Requirements Met</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/BackendCIPipeline.md" target="_blank">Backend CI Pipeline</a></td>
+    <td>Set up CI pipeline for the backend</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/FrontendCIPipeline.md" target="_blank">Frontend CI Pipeline</a></td>
+    <td>Set up CI pipeline for the frontend</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/IAOptimization.md" target="_blank">AI Model Optimization</a></td>
+    <td>Optimize AI models for better performance</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
+</table>
 
 
 
@@ -124,27 +214,27 @@ By the end of Sprint 1, users should be able to log in to the web platform, view
     <tbody>
         <tr>
             <td>1</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/LoginAuthentication.md" target='_blank'>Login/Autenticação do Endorser</a></td>
-            <td>Como um usuário endorser, quero autenticar-me na plataforma usando meu CNPJ e senha, para acessar minha conta e visualizar meu score, desde que tenha aceitado os termos.</td>
-            <td>Alta</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/LoginAuthentication.md" target='_blank'>Endorser Login/Authentication</a></td>
+            <td>As an endorser user, I want to authenticate on the platform using my CNPJ and password to access my account and view my score, provided I have accepted the terms.</td>
+            <td>High</td>
         </tr>
         <tr>
             <td>2</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/AIScoreModel.md" target='_blank'>Modelo IA visando Score</a></td>
-            <td>Como um cientista de dados, quero testar vários algoritmos de IA que gerem um score de crédito para cada endorser, para avaliar sua confiabilidade no cumprimento de obrigações de crédito.</td>
-            <td>Alta</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/AIScoreModel.md" target='_blank'>AI Model for Score</a></td>
+            <td>As a data scientist, I want to test multiple AI algorithms that generate a credit score for each endorser to assess their reliability in meeting credit obligations.</td>
+            <td>High</td>
         </tr>
         <tr>
             <td>3</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DataTransformationAI.md" target='_blank'>Transformação dos dados para IA</a></td>
-            <td>Como engenheiro de dados, quero transformar e limpar dados conforme regras predefinidas, para que dados desnecessários sejam removidos e os dados limpos estejam acessíveis para testes de algoritmos de IA.</td>
-            <td>Alta</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DataTransformationAI.md" target='_blank'>Data Transformation for AI</a></td>
+            <td>As a data engineer, I want to transform and clean data according to predefined rules so that unnecessary data is removed and the cleaned data is available for AI algorithm testing.</td>
+            <td>High</td>
         </tr>
         <tr>
             <td>4</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConsentConfiguration.md" target='_blank'>Configuração de Consentimento - endorser</a></td>
-            <td>Como um usuário endorser, quero configurar meu consentimento em relação aos termos e políticas, para que eu possa gerenciar como meus dados são usados na plataforma.</td>
-            <td>Alta</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConsentConfiguration.md" target='_blank'>Consent Configuration - Endorser</a></td>
+            <td>As an endorser user, I want to configure my consent regarding terms and policies so that I can manage how my data is used on the platform.</td>
+            <td>High</td>
         </tr>
     </tbody>
 </table>
@@ -216,10 +306,10 @@ At the end of the sprint, we expect to deliver a functional AI model, an intuiti
         </a>
       </td>
       <td>
-        Como desenvolvedor backend, quero construir um pipeline de Integração Contínua (CI) para o repositório backend, para que testes unitários e de integração sejam automaticamente executados, garantindo a qualidade do código antes da fusão com a branch principal.
+        As a backend developer, I want to build a Continuous Integration (CI) pipeline for the backend repository, so that unit and integration tests are automatically executed, ensuring code quality before merging with the main branch.
       </td>
-      <td>Alta</td>
-      <td>Testes Automatizados</td>
+      <td>High</td>
+      <td>Automated Testing</td>
     </tr>
     <tr>
       <td>2</td>
@@ -229,75 +319,75 @@ At the end of the sprint, we expect to deliver a functional AI model, an intuiti
         </a>
       </td>
       <td>
-        Como desenvolvedor frontend, quero um pipeline de CI para o repositório frontend, para que testes unitários e de integração sejam automaticamente executados, mantendo os padrões de desenvolvimento.
+        As a frontend developer, I want a CI pipeline for the frontend repository so that unit and integration tests are automatically executed, maintaining development standards.
       </td>
-      <td>Alta</td>
-      <td>Testes Automatizados</td>
+      <td>High</td>
+      <td>Automated Testing</td>
     </tr>
     <tr>
       <td>3</td>
       <td>
         <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/transformacaoDosDadosParaIA.md" target="_blank">
-          Transformação dos Dados para IA
+          Data Transformation for AI
         </a>
       </td>
       <td>
-        Como engenheiro de dados, quero transformar e limpar dados de acordo com regras predefinidas, para que dados desnecessários sejam removidos e os dados limpos estejam acessíveis para testes de algoritmos de IA.
+        As a data engineer, I want to transform and clean data according to predefined rules so that unnecessary data is removed and the cleaned data is accessible for AI algorithm testing.
       </td>
-      <td>Alta</td>
-      <td>Limpeza e Pré-processamento de Dados</td>
+      <td>High</td>
+      <td>Data Cleaning and Preprocessing</td>
     </tr>
     <tr>
       <td>4</td>
       <td>
         <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target="_blank">
-          Modelo IA para Score
+          AI Model for Scoring
         </a>
       </td>
       <td>
-        Como cientista de dados, quero testar vários algoritmos de IA que gerem um score de crédito para cada endorser, para avaliar sua confiabilidade no cumprimento de obrigações de crédito.
+        As a data scientist, I want to test various AI algorithms that generate a credit score for each endorser to assess their reliability in meeting credit obligations.
       </td>
-      <td>Alta</td>
-      <td>Desenvolvimento Inicial de Modelos de IA</td>
+      <td>High</td>
+      <td>Initial Development of AI Models</td>
     </tr>
     <tr>
       <td>5</td>
       <td>
         <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoDeFinalizacaoDeDuplicatasSPC.md" target="_blank">
-          Previsão de Finalização de Duplicatas - SPC
+          Prediction of Completion for Duplicates - SPC
         </a>
       </td>
       <td>
-        Como usuário do SPC, quero prever a finalização de uma duplicata com base em parâmetros fornecidos, para entender a probabilidade de uma duplicata específica ser finalizada ou não.
+        As an SPC user, I want to predict the completion of a duplicate based on given parameters to understand the likelihood of a specific duplicate being finalized or not.
       </td>
-      <td>Alta</td>
-      <td>Previsão de Finalização de Duplicatas</td>
+      <td>High</td>
+      <td>Prediction of Duplicate Completion</td>
     </tr>
     <tr>
       <td>6</td>
       <td>
         <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/OtimizacaodeModelosIA.md" target="_blank">
-          Otimização de Modelos de IA
+          Optimization of AI Models
         </a>
       </td>
       <td>
-        Como cientista de dados, quero otimizar modelos de IA selecionados, para alcançar maior precisão na previsão de scores de crédito e finalizações de faturas.
+        As a data scientist, I want to optimize selected AI models to achieve higher accuracy in predicting credit scores and invoice completions.
       </td>
-      <td>Alta</td>
-      <td>Otimização de Modelos de IA</td>
+      <td>High</td>
+      <td>AI Model Optimization</td>
     </tr>
     <tr>
       <td>7</td>
       <td>
         <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/preverFinalizacaoDeFaturas.md" target="_blank">
-          Modelo de IA para Previsão de Duplicatas
+          AI Model for Duplicate Prediction
         </a>
       </td>
       <td>
-        Como cientista de dados, quero desenvolver um modelo de IA para prever se uma fatura será finalizada, para ajudar a equipe financeira a identificar faturas com alta probabilidade de finalização.
+        As a data scientist, I want to develop an AI model to predict if an invoice will be completed, to help the finance team identify invoices with a high probability of completion.
       </td>
-      <td>Média</td>
-      <td>Previsão de Duplicatas</td>
+      <td>Medium</td>
+      <td>Duplicate Prediction</td>
     </tr>
   </tbody>
 </table>
@@ -318,31 +408,30 @@ At the end of the sprint, we expect to deliver a functional AI model, an intuiti
       <td>8</td>
       <td>
         <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PipelineDeCIBackend.md" target="_blank">
-          CI Pipeline para Backend
+          CI Pipeline for Backend
         </a>
       </td>
       <td>
-        Como desenvolvedor backend, quero construir um pipeline de CI para o repositório backend, para que testes sejam executados automaticamente, garantindo a qualidade do código antes de mergear com a branch principal.
+        As a backend developer, I want to build a CI pipeline for the backend repository so that tests are automatically executed, ensuring code quality before merging with the main branch.
       </td>
-      <td>Alta</td>
-      <td>Documentação, Segurança</td>
+      <td>High</td>
+      <td>Documentation, Security</td>
     </tr>
     <tr>
       <td>9</td>
       <td>
         <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/CIPipelineForFrontend.md" target="_blank">
-          CI Pipeline para Frontend
+          CI Pipeline for Frontend
         </a>
       </td>
       <td>
-        Como desenvolvedor frontend, quero um pipeline de CI para o repositório frontend, para que testes sejam executados automaticamente, garantindo os padrões de desenvolvimento.
+        As a frontend developer, I want a CI pipeline for the frontend repository so that tests are automatically executed, ensuring development standards.
       </td>
-      <td>Alta</td>
-      <td>Documentação, Segurança</td>
+      <td>High</td>
+      <td>Documentation, Security</td>
     </tr>
   </tbody>
 </table>
-
 
 <details>
     <summary>Finalization probability page</summary>
@@ -415,7 +504,7 @@ These objectives are structured to deliver tangible improvements in user experie
 
 ## Sprint 3 Backlog
 
-### Funcionais
+<h3>Functional</h3>
 <table border="1">
     <thead>
         <tr>
@@ -429,57 +518,57 @@ These objectives are structured to deliver tangible improvements in user experie
     <tbody>
         <tr>
             <td>1</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/preverFinalizacaoDeFaturas.md" target='_blank'> Previsão de Finalização de Faturas </a></td>
-            <td>Como cientista de dados, quero testar vários algoritmos de IA que geram uma previsão de status de duplicatas, para que eu possa avaliar a confiabilidade no cumprimento das obrigações de crédito.</td>
-            <td>Alta</td>
-            <td>Previsão de Status de Duplicatas</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/preverFinalizacaoDeFaturas.md" target="_blank">Invoice Completion Prediction</a></td>
+            <td>As a data scientist, I want to test various AI algorithms that generate a prediction for the status of invoices, so I can evaluate reliability in meeting credit obligations.</td>
+            <td>High</td>
+            <td>Invoice Status Prediction</td>
         </tr>
         <tr>
             <td>2</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/configuracaoConsentimentoEndorser.md" target='_blank'> Configuração de Consentimento - Endorser </a></td>
-            <td>Como usuário endorser, quero configurar meu consentimento em relação aos termos e políticas, para que eu possa gerenciar como meus dados são utilizados na plataforma.</td>
-            <td>Alta</td>
-            <td>Conformidade, Usabilidade</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/configuracaoConsentimentoEndorser.md" target="_blank">Consent Configuration - Endorser</a></td>
+            <td>As an endorser user, I want to set my consent regarding terms and policies so that I can manage how my data is used on the platform.</td>
+            <td>High</td>
+            <td>Compliance, Usability</td>
         </tr>
         <tr>
             <td>3</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/previsaoScoreAlvoEndorser.md" target='_blank'> Previsão de Score Alvo - Endorser </a></td>
-            <td>Como usuário endorser, quero descobrir quais mudanças são necessárias para atingir um score alvo que eu fornecer, para que eu possa tomar decisões informadas e melhorar minha situação de crédito.</td>
-            <td>Média</td>
-            <td>Ajuste de Score Alvo</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/previsaoScoreAlvoEndorser.md" target="_blank">Target Score Prediction - Endorser</a></td>
+            <td>As an endorser user, I want to know what changes are necessary to achieve a target score that I provide, so that I can make informed decisions and improve my credit situation.</td>
+            <td>Medium</td>
+            <td>Target Score Adjustment</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>IA para prever resultados de duplicatas/séries temporais</td>
-            <td>Como analista, quero que a IA preveja resultados de duplicatas e séries temporais, para que eu possa identificar padrões e tendências.</td>
-            <td>Alta</td>
-            <td>Análise Comportamental, Insights de Mercado</td>
+            <td>AI to Predict Invoice/Time Series Outcomes</td>
+            <td>As an analyst, I want the AI to predict outcomes of invoices and time series, so I can identify patterns and trends.</td>
+            <td>High</td>
+            <td>Behavioral Analysis, Market Insights</td>
         </tr>
         <tr>
             <td>5</td>
-            <td>API Backend para Integração de Dados de IA</td>
-            <td>Como desenvolvedor, preciso de uma API backend para buscar dados dos novos modelos de IA, para que possam ser exibidos na interface frontend.</td>
-            <td>Alta</td>
-            <td>Integração de Dados, Desenvolvimento de API</td>
+            <td>Backend API for AI Data Integration</td>
+            <td>As a developer, I need a backend API to retrieve data from new AI models, so that it can be displayed on the frontend interface.</td>
+            <td>High</td>
+            <td>Data Integration, API Development</td>
         </tr>
         <tr>
             <td>6</td>
-            <td>Implementação Frontend para Exibição de Dados de IA</td>
-            <td>Como usuário, quero ver os dados fornecidos pelos novos modelos de IA exibidos em uma interface frontend intuitiva, para que eu possa entender e agir com base nos insights fornecidos.</td>
-            <td>Alta</td>
-            <td>Interface do Usuário, Visualização de Dados</td>
+            <td>Frontend Implementation for Displaying AI Data</td>
+            <td>As a user, I want to see the data provided by new AI models displayed in an intuitive frontend interface, so I can understand and act on the provided insights.</td>
+            <td>High</td>
+            <td>User Interface, Data Visualization</td>
         </tr>
         <tr>
             <td>7</td>
-            <td>Refatoração do Repositório Frontend</td>
-            <td>Como desenvolvedor, preciso refatorar o código existente do frontend, para que ele se alinhe às novas estruturas de dados e exiba os insights de IA de forma eficaz.</td>
-            <td>Média</td>
-            <td>Manutenibilidade do Código, Experiência do Usuário</td>
+            <td>Frontend Repository Refactoring</td>
+            <td>As a developer, I need to refactor the existing frontend code so that it aligns with new data structures and effectively displays AI insights.</td>
+            <td>Medium</td>
+            <td>Code Maintainability, User Experience</td>
         </tr>
     </tbody>
 </table>
 
-### Não Funcionais
+<h3>Non-Functional</h3>
 <table border="1">
     <thead>
         <tr>
@@ -493,17 +582,17 @@ These objectives are structured to deliver tangible improvements in user experie
     <tbody>
         <tr>
             <td>8</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrivacyPolicy.md" target='_blank'> Política de Privacidade </a></td>
-            <td>Como usuário, quero acessar a política de privacidade da aplicação, para que eu entenda como meus dados serão usados e protegidos.</td>
-            <td>Média</td>
-            <td>Conformidade, Usabilidade</td>
+            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrivacyPolicy.md" target="_blank">Privacy Policy</a></td>
+            <td>As a user, I want to access the application's privacy policy so that I understand how my data will be used and protected.</td>
+            <td>Medium</td>
+            <td>Compliance, Usability</td>
         </tr>
         <tr>
             <td>9</td>
-            <td>Otimização de Performance para Modelos de IA</td>
-            <td>Como desenvolvedor, quero que os sistemas de IA sejam otimizados para performance, para que os dados possam ser processados e entregues rapidamente ao usuário.</td>
-            <td>Média</td>
-            <td>Performance, Escalabilidade</td>
+            <td>AI Model Performance Optimization</td>
+            <td>As a developer, I want the AI systems to be optimized for performance so that data can be processed and delivered quickly to the user.</td>
+            <td>Medium</td>
+            <td>Performance, Scalability</td>
         </tr>
     </tbody>
 </table>
