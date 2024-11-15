@@ -231,11 +231,12 @@ By the end of Sprint 1, users should be able to log in to the web platform, view
             <td>High</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConsentConfiguration.md" target='_blank'>Consent Configuration - Endorser</a></td>
-            <td>As an endorser user, I want to configure my consent regarding terms and policies so that I can manage how my data is used on the platform.</td>
-            <td>High</td>
-        </tr>
+    <td>8</td>
+    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConsentConfiguration.md" target="_blank">Security Requirements Based on LGPD</a></td>
+    <td>Set up consent mechanisms for endorsers</td>
+    <td>High</td>
+    <td>Yes</td>
+  </tr>
     </tbody>
 </table>
 
@@ -524,11 +525,11 @@ These objectives are structured to deliver tangible improvements in user experie
             <td>Invoice Status Prediction</td>
         </tr>
         <tr>
-            <td>2</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/configuracaoConsentimentoEndorser.md" target="_blank">Consent Configuration - Endorser</a></td>
-            <td>As an endorser user, I want to set my consent regarding terms and policies so that I can manage how my data is used on the platform.</td>
-            <td>High</td>
-            <td>Compliance, Usability</td>
+        <td>8</td>
+          <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConsentConfiguration.md" target="_blank">Security Requirements Based on LGPD</a></td>
+          <td>Set up consent mechanisms for endorsers</td>
+          <td>High</td>
+          <td>Yes</td>
         </tr>
         <tr>
             <td>3</td>
@@ -580,13 +581,6 @@ These objectives are structured to deliver tangible improvements in user experie
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>8</td>
-            <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrivacyPolicy.md" target="_blank">Privacy Policy</a></td>
-            <td>As a user, I want to access the application's privacy policy so that I understand how my data will be used and protected.</td>
-            <td>Medium</td>
-            <td>Compliance, Usability</td>
-        </tr>
         <tr>
             <td>9</td>
             <td>AI Model Performance Optimization</td>
