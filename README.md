@@ -41,7 +41,6 @@ We propose developing a system that analyzes the reliability of endorsers using 
 5. **Real-Time Score Feedback**: Enable clients to input their data and see how it impacts their score in real time.
 6. **Target Score Adjustment**: Provide a mechanism for clients to enter a target score and receive suggestions on what changes are needed to achieve it, including an interface for endorser users to discover necessary adjustments.
 7. **Variable Impact Insights**: Allow users to see which variables are influencing their credit score and the level of their impact, fostering informed decision-making.
-8. **Data Access**: Ensure that SPC users have access to all user data that consented to data usage, while endorser users can only access their own data.
 
 ### Non-Functional Requirements
 1. **Compliance**: Ensure the system complies with the General Data Protection Law (LGPD).
@@ -54,89 +53,78 @@ We propose developing a system that analyzes the reliability of endorsers using 
 
 <h2>Backlog of User Stories</h2>
 
-<h3>Functional Requirements</h3>
-
 <table>
   <tr>
     <th>ID</th>
     <th>Story</th>
     <th>Description</th>
     <th>Priority</th>
-    <th>Functional Requirements Met</th>
+    <th>Requirements Met</th>
   </tr>
   <tr>
     <td>1</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/dashboardAnaliseCnpjsScore.md" target="_blank">Dashboard for duplicate market analysis</a></td>
     <td>Develop a dashboard for analyzing duplicate market data</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>Duplicate Completion Prediction</td>
   </tr>
   <tr>
     <td>2</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ModeloIAVisandoScore.md" target="_blank">AI model for Score</a></td>
     <td>Create an AI model to generate user scores</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>AI Score Generation, Documentation</td>
   </tr>
   <tr>
     <td>3</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/loginAutenticacaoEndorser.md" target="_blank">Login/Authentication for Endorser</a></td>
     <td>Implement login and authentication for endorser users</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>Web Platform, Usability, Compliance</td>
   </tr>
   <tr>
     <td>4</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/transformacaoDosDadosParaIA.md" target="_blank">Data Transformation for AI</a></td>
     <td>Perform data transformation for AI model usage</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>Performance, Security, AI Score Generation, Documentation</td>
   </tr>
   <tr>
     <td>5</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PrevisaoDeFinalizacaoDeDuplicatasSPC.md" target="_blank">Duplicate Completion Prediction - SPC</a></td>
     <td>Use AI to predict the completion of duplicate contracts</td>
     <td>High</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/preverFinalizacaoDeFaturas.md" target="_blank">AI to Predict Invoice Completion</a></td>
-    <td>Predict invoice completion using AI</td>
-    <td>High</td>
-    <td>Yes</td>
+    <td>Duplicate Completion Prediction, Documentation</td>
   </tr>
   <tr>
     <td>7</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/AcessoHistoricoDuplicatasSPC.md" target="_blank">Access to Duplicate History - SPC</a></td>
     <td>Enable access to duplicate history for SPC users</td>
     <td>Medium</td>
-    <td>Yes</td>
+    <td>Duplicate Completion Prediction, Usability</td>
   </tr>
     <tr>
     <td>8</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/ConsentConfiguration.md" target="_blank">Security Requirements Based on LGPD</a></td>
     <td>Set up consent mechanisms for endorsers</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>Security, Compliance, Consent Mechanism, Usability </td>
   </tr>
   <tr>
     <td>9</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/previsaoScoreAlvoEndorser.md" target="_blank">Target Score Prediction/Recommendation - Endorser</a></td>
     <td>Provide recommendations to reach a target score</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>Web Platform, Target Score Adjustment, Usability</td>
   </tr>
   <tr>
     <td>10</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/DuplicataSeriesPrediction.md" target="_blank">AI to Predict Duplicate/Series Outcomes</a></td>
     <td>AI for predicting duplicates and time series outcomes</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>Duplicate Completion Prediction</td>
   </tr>
 </table>
-
-<h3>Non-Functional Requirements</h3>
 
 <table>
   <tr>
@@ -144,28 +132,28 @@ We propose developing a system that analyzes the reliability of endorsers using 
     <th>Story</th>
     <th>Description</th>
     <th>Priority</th>
-    <th>Non-Functional Requirements Met</th>
+    <th> Requirements Met</th>
   </tr>
   <tr>
     <td>1</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/PipelineDeCIBackend.md" target="_blank">Backend CI Pipeline</a></td>
     <td>Set up CI pipeline for the backend</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>Scalability</td>
   </tr>
   <tr>
     <td>2</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/CIPipelineForFrontend.md" target="_blank">Frontend CI Pipeline</a></td>
     <td>Set up CI pipeline for the frontend</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>Scalability</td>
   </tr>
   <tr>
     <td>3</td>
     <td><a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/userStorys/ENUs/OtimizacaodeModelosIA.md" target="_blank">AI Model Optimization</a></td>
     <td>Optimize AI models for better performance</td>
     <td>High</td>
-    <td>Yes</td>
+    <td>Scalability, Performance </td>
   </tr>
 </table>
 
@@ -201,7 +189,6 @@ By the end of Sprint 1, users should be able to log in to the web platform, view
 
 ## Backlog Sprint 1:
 
-### Functional Requirements
 <table border="1">
     <thead>
         <tr>
