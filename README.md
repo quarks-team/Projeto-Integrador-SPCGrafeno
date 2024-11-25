@@ -501,7 +501,7 @@ These objectives are structured to deliver tangible improvements in user experie
     <h2>Prediction for finished duplicates using Temporal Series:</h2>
     <img src="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/Historico.jpg" alt="Predict by history data" style="max-width: 100%; height: auto;">
     <h2>Recomendations to increase score using Random Forest :</h2>
-    <h3> TO DO....</h3>
+    <img src="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/HomeSprint3.png" alt="Predict by history data" style="max-width: 100%; height: auto;">
 </details>
 
 
