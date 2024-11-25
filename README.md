@@ -495,6 +495,13 @@ These objectives are structured to deliver tangible improvements in user experie
     </tbody>
 </table>
 
+# Sprint 3 new features:
+<h2> Prediction for finished duplicates using Temporal Series: </h2>
+<img src = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/Historico.jpg"></img>
+
+<h2> Recomendations to increase score using Random Forest : </h2>
+### TO DO
+
 ### Used Technologies
 
 - [Typescript](https://www.typescriptlang.org/)
