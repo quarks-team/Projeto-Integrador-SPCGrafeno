@@ -496,11 +496,14 @@ These objectives are structured to deliver tangible improvements in user experie
 </table>
 
 # Sprint 3 new features:
-<h2> Prediction for finished duplicates using Temporal Series: </h2>
-<img src = "https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/Historico.jpg"></img>
+<details>
+    <summary>Show Application</summary>
+    <h2>Prediction for finished duplicates using Temporal Series:</h2>
+    <img src="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/Historico.jpg" alt="Predict by history data" style="max-width: 100%; height: auto;">
+    <h2>Recomendations to increase score using Random Forest :</h2>
+    <h3> TO DO....</h3>
+</details>
 
-<h2> Recomendations to increase score using Random Forest : </h2>
-### TO DO
 
 ### Used Technologies
 
