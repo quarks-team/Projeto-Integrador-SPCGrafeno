@@ -514,6 +514,7 @@ These objectives are structured to deliver tangible improvements in user experie
 - [Python](https://www.python.org/)
 - [Railway](https://railway.app/)
 - [Docker/Docker Compose](https://www.docker.com/)
+- [MongoDB]
   
 <br><br>
 
